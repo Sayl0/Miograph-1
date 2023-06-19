@@ -17,28 +17,28 @@ namespace Miograph
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void HomePage_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void QuickStart_Click(object sender, EventArgs e)
         {
             var myForm = new UserManual();
             myForm.Show();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void UserSelection_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void UserManual_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void ExitButton_Click(object sender, EventArgs e)
         {
 
         }
