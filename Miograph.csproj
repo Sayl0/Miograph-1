@@ -58,12 +58,6 @@
     <Compile Include="ActiveNPassiveMode.Designer.cs">
       <DependentUpon>ActiveNPassiveMode.cs</DependentUpon>
     </Compile>
-    <Compile Include="Exit.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Exit.Designer.cs">
-      <DependentUpon>Exit.cs</DependentUpon>
-    </Compile>
     <Compile Include="HomePage.cs">
       <SubType>Form</SubType>
     </Compile>
