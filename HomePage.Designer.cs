@@ -36,9 +36,11 @@
             // 
             // QuickStart
             // 
-            this.QuickStart.Location = new System.Drawing.Point(331, 93);
+            this.QuickStart.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.QuickStart.Location = new System.Drawing.Point(300, 80);
+            this.QuickStart.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.QuickStart.Name = "QuickStart";
-            this.QuickStart.Size = new System.Drawing.Size(136, 47);
+            this.QuickStart.Size = new System.Drawing.Size(120, 50);
             this.QuickStart.TabIndex = 0;
             this.QuickStart.Text = "Быстрый старт";
             this.QuickStart.UseVisualStyleBackColor = true;
@@ -46,9 +48,11 @@
             // 
             // UseerSelection
             // 
-            this.UseerSelection.Location = new System.Drawing.Point(331, 168);
+            this.UseerSelection.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.UseerSelection.Location = new System.Drawing.Point(300, 140);
+            this.UseerSelection.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.UseerSelection.Name = "UseerSelection";
-            this.UseerSelection.Size = new System.Drawing.Size(136, 46);
+            this.UseerSelection.Size = new System.Drawing.Size(120, 50);
             this.UseerSelection.TabIndex = 1;
             this.UseerSelection.Text = "Выбор пользователя";
             this.UseerSelection.UseVisualStyleBackColor = true;
@@ -56,9 +60,11 @@
             // 
             // UserManual
             // 
-            this.UserManual.Location = new System.Drawing.Point(331, 246);
+            this.UserManual.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.UserManual.Location = new System.Drawing.Point(300, 200);
+            this.UserManual.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.UserManual.Name = "UserManual";
-            this.UserManual.Size = new System.Drawing.Size(136, 48);
+            this.UserManual.Size = new System.Drawing.Size(120, 50);
             this.UserManual.TabIndex = 2;
             this.UserManual.Text = "Инструкция пользоватлея";
             this.UserManual.UseVisualStyleBackColor = true;
@@ -66,9 +72,11 @@
             // 
             // ExitButton
             // 
-            this.ExitButton.Location = new System.Drawing.Point(329, 316);
+            this.ExitButton.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.ExitButton.Location = new System.Drawing.Point(300, 260);
+            this.ExitButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ExitButton.Name = "ExitButton";
-            this.ExitButton.Size = new System.Drawing.Size(138, 44);
+            this.ExitButton.Size = new System.Drawing.Size(120, 50);
             this.ExitButton.TabIndex = 3;
             this.ExitButton.Text = "Выход";
             this.ExitButton.UseVisualStyleBackColor = true;
@@ -76,13 +84,14 @@
             // 
             // HomePage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(711, 360);
             this.Controls.Add(this.ExitButton);
             this.Controls.Add(this.UserManual);
             this.Controls.Add(this.UseerSelection);
             this.Controls.Add(this.QuickStart);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "HomePage";
             this.Text = "HomePage";
             this.Load += new System.EventHandler(this.Form1_Load);
