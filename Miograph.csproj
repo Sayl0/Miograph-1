@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActiveMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActiveMode.Designer.cs">
+      <DependentUpon>ActiveMode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActiveNPassiveMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActiveNPassiveMode.Designer.cs">
+      <DependentUpon>ActiveNPassiveMode.cs</DependentUpon>
+    </Compile>
     <Compile Include="Exit.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,6 +69,18 @@
     </Compile>
     <Compile Include="HomePage.Designer.cs">
       <DependentUpon>HomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PassiveMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PassiveMode.Designer.cs">
+      <DependentUpon>PassiveMode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PassiveModeAnkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PassiveModeAnkle.Designer.cs">
+      <DependentUpon>PassiveModeAnkle.cs</DependentUpon>
     </Compile>
     <Compile Include="QuickStart.cs">
       <SubType>Form</SubType>
