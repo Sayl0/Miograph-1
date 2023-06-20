@@ -111,10 +111,10 @@
     <Compile Include="SelectUser.Designer.cs">
       <DependentUpon>SelectUser.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserManual.cs">
+    <Compile Include="formUserManual\UserManual.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UserManual.Designer.cs">
+    <Compile Include="formUserManual\UserManual.Designer.cs">
       <DependentUpon>UserManual.cs</DependentUpon>
     </Compile>
     <Compile Include="UserSelection.cs">
@@ -150,7 +150,7 @@
     <EmbeddedResource Include="SelectUser.resx">
       <DependentUpon>SelectUser.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserManual.resx">
+    <EmbeddedResource Include="formUserManual\UserManual.resx">
       <DependentUpon>UserManual.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserSelection.resx">
@@ -171,7 +171,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="formQuickStart\" />
-    <Folder Include="formUserManual\" />
     <Folder Include="formUserSelection\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
