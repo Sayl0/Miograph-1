@@ -22,25 +22,51 @@ namespace Miograph
 
         }
 
+        //Кнопка для перехода на "Быстрый старт"
         private void QuickStart_Click(object sender, EventArgs e)
         {
-            var myForm = new UserManual();
-            myForm.Show();
+            var frm = new QuickStart();
+            frm.Location = this.Location;
+            frm.StartPosition = FormStartPosition.Manual;
+            frm.FormClosing += delegate { this.Show(); };
+            frm.Show();
+            this.Hide();
         }
 
+        //Кнопка для перехода на "Выбор пользователя"
         private void UserSelection_Click(object sender, EventArgs e)
         {
-
+            var frm = new UserSelection();
+            frm.Location = this.Location;
+            frm.StartPosition = FormStartPosition.Manual;
+            frm.FormClosing += delegate { this.Show(); };
+            frm.Show();
+            this.Hide();
         }
-
+        
+        //Кнопка для перехода на "Иснтрукция пользователя
         private void UserManual_Click(object sender, EventArgs e)
         {
-
+            var frm = new UserManual();
+            frm.Location = this.Location;
+            frm.StartPosition = FormStartPosition.Manual;
+            frm.FormClosing += delegate { this.Show(); };
+            frm.Show();
+            this.Hide();
         }
 
+        //Кнопка для выхода
         private void ExitButton_Click(object sender, EventArgs e)
         {
-
+            DialogResult result = MessageBox.Show("Вы уверены?", "Выход из приложенеия", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+            if (result.Equals(DialogResult.OK))
+            {
+                this.Close();
+            }
+            else
+            {
+                
+            }
         }
     }
 }

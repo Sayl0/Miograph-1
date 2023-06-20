@@ -10,42 +10,40 @@ using System.Windows.Forms;
 
 namespace Miograph
 {
-    public partial class UserSelection : Form
+    public partial class PersonalProfile : Form
     {
-        public UserSelection()
+        public PersonalProfile()
         {
             InitializeComponent();
         }
-
-        private void UserSelection_Load(object sender, EventArgs e)
+      
+        private void buttonExit_Click(object sender, EventArgs e)
         {
-
+            var frm = new HomePage();
+            frm.Location = this.Location;
+            frm.StartPosition = FormStartPosition.Manual;
+            frm.FormClosing += delegate { this.Show(); };
+            frm.Show();
+            this.Close();
         }
-
-        private void buttonSignUp_Click(object sender, EventArgs e)
+        private void buttonAddUser_Click(object sender, EventArgs e)
         {
-            var frm = new RegistrationForm();
+            var frm = new AddUser();
             frm.Location = this.Location;
             frm.StartPosition = FormStartPosition.Manual;
             frm.FormClosing += delegate { this.Show(); };
             frm.Show();
             this.Hide();
         }
-        private void buttonLogIn_Click(object sender, EventArgs e)
+
+        private void buttonSelectUser_Click(object sender, EventArgs e)
         {
-            var frm = new PersonalProfile();
+            var frm = new SelectUser();
             frm.Location = this.Location;
             frm.StartPosition = FormStartPosition.Manual;
             frm.FormClosing += delegate { this.Show(); };
             frm.Show();
             this.Hide();
         }
-
-        private void buttonCancel_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
-
-        
     }
 }

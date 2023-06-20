@@ -10,24 +10,14 @@ using System.Windows.Forms;
 
 namespace Miograph
 {
-    public partial class UserManual : Form
+    public partial class RegistrationForm : Form
     {
-        public UserManual()
+        public RegistrationForm()
         {
             InitializeComponent();
         }
 
-        private void UserManual_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void buttonExit_Click(object sender, EventArgs e)
+        private void buttonCancel_Click(object sender, EventArgs e)
         {
             Close();
         }
