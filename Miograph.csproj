@@ -58,6 +58,12 @@
     <Compile Include="formQuickStart\ActiveNPassiveMode\ActiveNPassiveMode.Designer.cs">
       <DependentUpon>ActiveNPassiveMode.cs</DependentUpon>
     </Compile>
+    <Compile Include="formQuickStart\PassiveMode\PassiveModeSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formQuickStart\PassiveMode\PassiveModeSettings.Designer.cs">
+      <DependentUpon>PassiveModeSettings.cs</DependentUpon>
+    </Compile>
     <Compile Include="formUserSelection\PersonalProfile\AddUser\AddUser.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -134,6 +140,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="formQuickStart\PassiveMode\PassiveMode.resx">
       <DependentUpon>PassiveMode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formQuickStart\PassiveMode\PassiveModeSettings.resx">
+      <DependentUpon>PassiveModeSettings.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formUserSelection\PersonalProfile\AddUser\AddUser.resx">
       <DependentUpon>AddUser.cs</DependentUpon>
