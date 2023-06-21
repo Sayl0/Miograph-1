@@ -123,6 +123,18 @@
     <Compile Include="formUserSelection\UserSelection.Designer.cs">
       <DependentUpon>UserSelection.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="formQuickStart\ActiveMode\ActiveMode.resx">
+      <DependentUpon>ActiveMode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formQuickStart\ActiveNPassiveMode\ActiveNPassiveMode.resx">
+      <DependentUpon>ActiveNPassiveMode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formQuickStart\PassiveModeAnkle\PassiveModeAnkle.resx">
+      <DependentUpon>PassiveModeAnkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formQuickStart\PassiveMode\PassiveMode.resx">
+      <DependentUpon>PassiveMode.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="formUserSelection\PersonalProfile\AddUser\AddUser.resx">
       <DependentUpon>AddUser.cs</DependentUpon>
     </EmbeddedResource>

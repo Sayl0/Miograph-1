@@ -37,11 +37,11 @@
             // QuickStart
             // 
             this.QuickStart.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.QuickStart.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.QuickStart.Location = new System.Drawing.Point(22, 61);
-            this.QuickStart.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.QuickStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.QuickStart.Location = new System.Drawing.Point(29, 75);
+            this.QuickStart.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.QuickStart.Name = "QuickStart";
-            this.QuickStart.Size = new System.Drawing.Size(330, 60);
+            this.QuickStart.Size = new System.Drawing.Size(440, 74);
             this.QuickStart.TabIndex = 0;
             this.QuickStart.Text = "Быстрый старт";
             this.QuickStart.UseVisualStyleBackColor = true;
@@ -50,11 +50,11 @@
             // UseerSelection
             // 
             this.UseerSelection.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.UseerSelection.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.UseerSelection.Location = new System.Drawing.Point(22, 146);
-            this.UseerSelection.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.UseerSelection.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.UseerSelection.Location = new System.Drawing.Point(29, 180);
+            this.UseerSelection.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.UseerSelection.Name = "UseerSelection";
-            this.UseerSelection.Size = new System.Drawing.Size(330, 60);
+            this.UseerSelection.Size = new System.Drawing.Size(440, 74);
             this.UseerSelection.TabIndex = 1;
             this.UseerSelection.Text = "Выбор пользователя";
             this.UseerSelection.UseVisualStyleBackColor = true;
@@ -63,11 +63,11 @@
             // UserManual
             // 
             this.UserManual.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.UserManual.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.UserManual.Location = new System.Drawing.Point(22, 234);
-            this.UserManual.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.UserManual.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.UserManual.Location = new System.Drawing.Point(29, 288);
+            this.UserManual.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.UserManual.Name = "UserManual";
-            this.UserManual.Size = new System.Drawing.Size(330, 60);
+            this.UserManual.Size = new System.Drawing.Size(440, 74);
             this.UserManual.TabIndex = 2;
             this.UserManual.Text = "Инструкция пользователя";
             this.UserManual.UseVisualStyleBackColor = true;
@@ -76,11 +76,11 @@
             // ExitButton
             // 
             this.ExitButton.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.ExitButton.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ExitButton.Location = new System.Drawing.Point(22, 319);
-            this.ExitButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ExitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ExitButton.Location = new System.Drawing.Point(29, 393);
+            this.ExitButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ExitButton.Name = "ExitButton";
-            this.ExitButton.Size = new System.Drawing.Size(330, 60);
+            this.ExitButton.Size = new System.Drawing.Size(440, 74);
             this.ExitButton.TabIndex = 3;
             this.ExitButton.Text = "Выход";
             this.ExitButton.UseVisualStyleBackColor = true;
@@ -88,18 +88,19 @@
             // 
             // HomePage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(378, 450);
+            this.ClientSize = new System.Drawing.Size(504, 554);
             this.Controls.Add(this.ExitButton);
             this.Controls.Add(this.UserManual);
             this.Controls.Add(this.UseerSelection);
             this.Controls.Add(this.QuickStart);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "HomePage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "HomePage";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.HomePage_Load);
             this.ResumeLayout(false);
 
