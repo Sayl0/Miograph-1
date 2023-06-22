@@ -82,6 +82,36 @@
     <Compile Include="formUserSelection\PersonalProfile\AddUser\PersonalData.Designer.cs">
       <DependentUpon>PersonalData.cs</DependentUpon>
     </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\RunDiagnostics\AnkleMuscleStrength.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\RunDiagnostics\AnkleMuscleStrength.Designer.cs">
+      <DependentUpon>AnkleMuscleStrength.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\RunDiagnostics\FootMobility.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\RunDiagnostics\FootMobility.Designer.cs">
+      <DependentUpon>FootMobility.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\RunDiagnostics\HipMuscleStrength.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\RunDiagnostics\HipMuscleStrength.Designer.cs">
+      <DependentUpon>HipMuscleStrength.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\RunDiagnostics\KneeMobility.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\RunDiagnostics\KneeMobility.Designer.cs">
+      <DependentUpon>KneeMobility.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\RunDiagnostics\RunDiagnostic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\RunDiagnostics\RunDiagnostic.Designer.cs">
+      <DependentUpon>RunDiagnostic.cs</DependentUpon>
+    </Compile>
     <Compile Include="HomePage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -164,6 +194,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="formUserSelection\PersonalProfile\AddUser\PersonalData.resx">
       <DependentUpon>PersonalData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formUserSelection\PersonalProfile\SelectUser\RunDiagnostics\AnkleMuscleStrength.resx">
+      <DependentUpon>AnkleMuscleStrength.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formUserSelection\PersonalProfile\SelectUser\RunDiagnostics\FootMobility.resx">
+      <DependentUpon>FootMobility.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formUserSelection\PersonalProfile\SelectUser\RunDiagnostics\HipMuscleStrength.resx">
+      <DependentUpon>HipMuscleStrength.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formUserSelection\PersonalProfile\SelectUser\RunDiagnostics\KneeMobility.resx">
+      <DependentUpon>KneeMobility.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formUserSelection\PersonalProfile\SelectUser\RunDiagnostics\RunDiagnostic.resx">
+      <DependentUpon>RunDiagnostic.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HomePage.resx">
       <DependentUpon>HomePage.cs</DependentUpon>

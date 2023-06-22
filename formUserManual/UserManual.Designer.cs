@@ -60,6 +60,7 @@
             this.ClientSize = new System.Drawing.Size(711, 390);
             this.Controls.Add(this.webBrowser1);
             this.Controls.Add(this.buttonExit);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "UserManual";
             this.Text = "UserManual";

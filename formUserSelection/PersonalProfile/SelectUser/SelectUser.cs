@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Miograph.formUserSelection.PersonalProfile.AddUser;
+using Miograph.formUserSelection.PersonalProfile.SelectUser;
 
 namespace Miograph
 {
@@ -17,14 +19,34 @@ namespace Miograph
             InitializeComponent();
         }
 
-        private void buttonExit_Click(object sender, EventArgs e)
+        private void buttonBack_Click(object sender, EventArgs e)
         {
-            Close();
+            this.Close();
         }
 
         private void SelectUser_Load(object sender, EventArgs e)
         {
+            
+        }
 
+        private void buttonEditMap_Click(object sender, EventArgs e)
+        {
+            var frm = new AddUser();
+            frm.Location = this.Location;
+            frm.StartPosition = FormStartPosition.Manual;
+            frm.FormClosing += delegate { this.Show(); };
+            frm.Show();
+            this.Hide();
+        }
+
+        private void buttonRunDiagnostics_Click(object sender, EventArgs e)
+        {
+            var frm = new RunDiagnostic();
+            frm.Location = this.Location;
+            frm.StartPosition = FormStartPosition.Manual;
+            frm.FormClosing += delegate { this.Show(); };
+            frm.Show();
+            this.Hide();
         }
     }
 }

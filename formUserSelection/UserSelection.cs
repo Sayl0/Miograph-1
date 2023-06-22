@@ -39,6 +39,7 @@ namespace Miograph
             frm.FormClosing += delegate { this.Show(); };
             frm.Show();
             this.Hide();
+
         }
 
         private void buttonCancel_Click(object sender, EventArgs e)

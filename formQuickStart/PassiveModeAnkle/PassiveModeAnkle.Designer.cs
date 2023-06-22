@@ -45,36 +45,40 @@
             // 
             this.speedBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.speedBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.speedBox.Location = new System.Drawing.Point(752, 218);
+            this.speedBox.Location = new System.Drawing.Point(564, 177);
+            this.speedBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.speedBox.Name = "speedBox";
-            this.speedBox.Size = new System.Drawing.Size(100, 34);
+            this.speedBox.Size = new System.Drawing.Size(76, 28);
             this.speedBox.TabIndex = 22;
             // 
             // rangeBox
             // 
             this.rangeBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.rangeBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.rangeBox.Location = new System.Drawing.Point(752, 178);
+            this.rangeBox.Location = new System.Drawing.Point(564, 145);
+            this.rangeBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rangeBox.Name = "rangeBox";
-            this.rangeBox.Size = new System.Drawing.Size(100, 34);
+            this.rangeBox.Size = new System.Drawing.Size(76, 28);
             this.rangeBox.TabIndex = 21;
             // 
             // timeBox
             // 
             this.timeBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.timeBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.timeBox.Location = new System.Drawing.Point(752, 138);
+            this.timeBox.Location = new System.Drawing.Point(564, 112);
+            this.timeBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.timeBox.Name = "timeBox";
-            this.timeBox.Size = new System.Drawing.Size(100, 34);
+            this.timeBox.Size = new System.Drawing.Size(76, 28);
             this.timeBox.TabIndex = 20;
             // 
             // label3
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(585, 212);
+            this.label3.Location = new System.Drawing.Point(439, 172);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(160, 40);
+            this.label3.Size = new System.Drawing.Size(120, 32);
             this.label3.TabIndex = 19;
             this.label3.Text = "Скорость";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -83,9 +87,10 @@
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(585, 172);
+            this.label2.Location = new System.Drawing.Point(439, 140);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(160, 40);
+            this.label2.Size = new System.Drawing.Size(120, 32);
             this.label2.TabIndex = 18;
             this.label2.Text = "Диапазон";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -94,29 +99,34 @@
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(585, 132);
+            this.label1.Location = new System.Drawing.Point(439, 107);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(160, 40);
+            this.label1.Size = new System.Drawing.Size(120, 32);
             this.label1.TabIndex = 17;
             this.label1.Text = "Время, мин.";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // modeText
             // 
+            this.modeText.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.modeText.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.modeText.Location = new System.Drawing.Point(12, 9);
+            this.modeText.Location = new System.Drawing.Point(9, 7);
+            this.modeText.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.modeText.Name = "modeText";
-            this.modeText.Size = new System.Drawing.Size(400, 40);
+            this.modeText.Size = new System.Drawing.Size(300, 32);
             this.modeText.TabIndex = 16;
             this.modeText.Text = "Пассивный режим, голеностоп";
             this.modeText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // startButton
             // 
+            this.startButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.startButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.startButton.Location = new System.Drawing.Point(268, 488);
+            this.startButton.Location = new System.Drawing.Point(201, 396);
+            this.startButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.startButton.Name = "startButton";
-            this.startButton.Size = new System.Drawing.Size(250, 80);
+            this.startButton.Size = new System.Drawing.Size(188, 65);
             this.startButton.TabIndex = 15;
             this.startButton.Text = "Приступить";
             this.startButton.UseVisualStyleBackColor = true;
@@ -124,10 +134,12 @@
             // 
             // cancelButton
             // 
+            this.cancelButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.cancelButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.cancelButton.Location = new System.Drawing.Point(12, 488);
+            this.cancelButton.Location = new System.Drawing.Point(9, 396);
+            this.cancelButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cancelButton.Name = "cancelButton";
-            this.cancelButton.Size = new System.Drawing.Size(250, 80);
+            this.cancelButton.Size = new System.Drawing.Size(188, 65);
             this.cancelButton.TabIndex = 14;
             this.cancelButton.Text = "Отмена";
             this.cancelButton.UseVisualStyleBackColor = true;
@@ -135,17 +147,19 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(12, 132);
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox1.Location = new System.Drawing.Point(9, 107);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(506, 350);
+            this.pictureBox1.Size = new System.Drawing.Size(380, 284);
             this.pictureBox1.TabIndex = 13;
             this.pictureBox1.TabStop = false;
             // 
             // PassiveModeAnkle
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1115, 776);
+            this.ClientSize = new System.Drawing.Size(836, 630);
             this.Controls.Add(this.speedBox);
             this.Controls.Add(this.rangeBox);
             this.Controls.Add(this.timeBox);
@@ -156,6 +170,8 @@
             this.Controls.Add(this.startButton);
             this.Controls.Add(this.cancelButton);
             this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "PassiveModeAnkle";
             this.Text = "PassiveModeAnkle";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

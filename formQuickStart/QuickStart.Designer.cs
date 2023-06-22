@@ -37,11 +37,12 @@
             // 
             // exitButton
             // 
-            this.exitButton.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.exitButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.exitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.exitButton.Location = new System.Drawing.Point(40, 459);
+            this.exitButton.Location = new System.Drawing.Point(6, 378);
+            this.exitButton.Margin = new System.Windows.Forms.Padding(2);
             this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(200, 80);
+            this.exitButton.Size = new System.Drawing.Size(150, 65);
             this.exitButton.TabIndex = 0;
             this.exitButton.Text = "Выход";
             this.exitButton.UseVisualStyleBackColor = true;
@@ -49,10 +50,12 @@
             // 
             // passiveButton
             // 
+            this.passiveButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.passiveButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.passiveButton.Location = new System.Drawing.Point(242, 81);
+            this.passiveButton.Location = new System.Drawing.Point(158, 71);
+            this.passiveButton.Margin = new System.Windows.Forms.Padding(2);
             this.passiveButton.Name = "passiveButton";
-            this.passiveButton.Size = new System.Drawing.Size(400, 80);
+            this.passiveButton.Size = new System.Drawing.Size(300, 65);
             this.passiveButton.TabIndex = 1;
             this.passiveButton.Text = "Пассивный режим";
             this.passiveButton.UseVisualStyleBackColor = true;
@@ -60,10 +63,12 @@
             // 
             // passiveAnkleButton
             // 
+            this.passiveAnkleButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.passiveAnkleButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.passiveAnkleButton.Location = new System.Drawing.Point(242, 167);
+            this.passiveAnkleButton.Location = new System.Drawing.Point(158, 141);
+            this.passiveAnkleButton.Margin = new System.Windows.Forms.Padding(2);
             this.passiveAnkleButton.Name = "passiveAnkleButton";
-            this.passiveAnkleButton.Size = new System.Drawing.Size(400, 80);
+            this.passiveAnkleButton.Size = new System.Drawing.Size(300, 65);
             this.passiveAnkleButton.TabIndex = 2;
             this.passiveAnkleButton.Text = "Пассивный режим, голеностоп";
             this.passiveAnkleButton.UseVisualStyleBackColor = true;
@@ -71,10 +76,12 @@
             // 
             // activePassiveButton
             // 
+            this.activePassiveButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.activePassiveButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.activePassiveButton.Location = new System.Drawing.Point(242, 253);
+            this.activePassiveButton.Location = new System.Drawing.Point(158, 211);
+            this.activePassiveButton.Margin = new System.Windows.Forms.Padding(2);
             this.activePassiveButton.Name = "activePassiveButton";
-            this.activePassiveButton.Size = new System.Drawing.Size(400, 80);
+            this.activePassiveButton.Size = new System.Drawing.Size(300, 65);
             this.activePassiveButton.TabIndex = 3;
             this.activePassiveButton.Text = "Активно-пассивный режим";
             this.activePassiveButton.UseVisualStyleBackColor = true;
@@ -82,10 +89,12 @@
             // 
             // activeButton
             // 
+            this.activeButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.activeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.activeButton.Location = new System.Drawing.Point(242, 339);
+            this.activeButton.Location = new System.Drawing.Point(158, 280);
+            this.activeButton.Margin = new System.Windows.Forms.Padding(2);
             this.activeButton.Name = "activeButton";
-            this.activeButton.Size = new System.Drawing.Size(400, 80);
+            this.activeButton.Size = new System.Drawing.Size(300, 65);
             this.activeButton.TabIndex = 4;
             this.activeButton.Text = "Активный режим";
             this.activeButton.UseVisualStyleBackColor = true;
@@ -93,15 +102,16 @@
             // 
             // QuickStart
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1211, 674);
+            this.ClientSize = new System.Drawing.Size(599, 487);
             this.Controls.Add(this.activeButton);
             this.Controls.Add(this.activePassiveButton);
             this.Controls.Add(this.passiveAnkleButton);
             this.Controls.Add(this.passiveButton);
             this.Controls.Add(this.exitButton);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "QuickStart";
             this.Text = "QuickStart";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
