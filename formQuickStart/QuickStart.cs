@@ -21,5 +21,50 @@ namespace Miograph
         {
 
         }
+
+        private void passiveButton_Click(object sender, EventArgs e)
+        {
+            var frm = new PassiveMode();
+            frm.Location = this.Location;
+            frm.StartPosition = FormStartPosition.Manual;
+            frm.FormClosing += delegate { this.Show(); };
+            Hide();
+            frm.Show();
+        }
+
+        private void passiveAnkleButton_Click(object sender, EventArgs e)
+        {
+            var frm = new PassiveModeAnkle();
+            frm.Location = this.Location;
+            frm.StartPosition = FormStartPosition.Manual;
+            frm.FormClosing += delegate { this.Show(); };
+            Hide();
+            frm.Show();
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void activePassiveButton_Click(object sender, EventArgs e)
+        {
+            var frm = new ActiveNPassiveMode();
+            frm.Location = this.Location;
+            frm.StartPosition = FormStartPosition.Manual;
+            frm.FormClosing += delegate { this.Show(); };
+            Hide();
+            frm.Show();
+        }
+
+        private void activeButton_Click(object sender, EventArgs e)
+        {
+            var frm = new ActiveMode();
+            frm.Location = this.Location;
+            frm.StartPosition = FormStartPosition.Manual;
+            frm.FormClosing += delegate { this.Show(); };
+            Hide();
+            frm.Show();
+        }
     }
 }

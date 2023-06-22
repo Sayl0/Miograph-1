@@ -8,29 +8,28 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Miograph
+namespace Miograph.formQuickStart.PassiveMode
 {
-    public partial class ActiveMode : Form
+    public partial class PassiveModeSettings : Form
     {
-        bool flag = false;
-        public ActiveMode()
+        public PassiveModeSettings()
         {
             InitializeComponent();
         }
 
-        private void angleBox_Click(object sender, EventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
 
         private void cancelButton_Click(object sender, EventArgs e)
         {
-            Close();
+            this.Close();
         }
 
-        private void startButton_Click(object sender, EventArgs e)
+        private void saveButton_Click(object sender, EventArgs e)
         {
-           
+            this.Close();
         }
     }
 }
