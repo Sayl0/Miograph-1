@@ -42,10 +42,9 @@
             this.labelLogin.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelLogin.AutoSize = true;
             this.labelLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelLogin.Location = new System.Drawing.Point(96, 124);
-            this.labelLogin.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelLogin.Location = new System.Drawing.Point(73, 104);
             this.labelLogin.Name = "labelLogin";
-            this.labelLogin.Size = new System.Drawing.Size(89, 29);
+            this.labelLogin.Size = new System.Drawing.Size(69, 24);
             this.labelLogin.TabIndex = 0;
             this.labelLogin.Text = "Логин:";
             // 
@@ -53,10 +52,9 @@
             // 
             this.buttonCancel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.buttonCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonCancel.Location = new System.Drawing.Point(84, 249);
-            this.buttonCancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonCancel.Location = new System.Drawing.Point(64, 205);
             this.buttonCancel.Name = "buttonCancel";
-            this.buttonCancel.Size = new System.Drawing.Size(146, 68);
+            this.buttonCancel.Size = new System.Drawing.Size(110, 55);
             this.buttonCancel.TabIndex = 1;
             this.buttonCancel.Text = "Отмена";
             this.buttonCancel.UseVisualStyleBackColor = true;
@@ -66,20 +64,18 @@
             // 
             this.textBoxLogin.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBoxLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxLogin.Location = new System.Drawing.Point(208, 121);
-            this.textBoxLogin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxLogin.Location = new System.Drawing.Point(157, 101);
             this.textBoxLogin.Name = "textBoxLogin";
-            this.textBoxLogin.Size = new System.Drawing.Size(247, 34);
+            this.textBoxLogin.Size = new System.Drawing.Size(186, 29);
             this.textBoxLogin.TabIndex = 2;
             // 
             // textBoxPassword
             // 
             this.textBoxPassword.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBoxPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxPassword.Location = new System.Drawing.Point(208, 181);
-            this.textBoxPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxPassword.Location = new System.Drawing.Point(157, 150);
             this.textBoxPassword.Name = "textBoxPassword";
-            this.textBoxPassword.Size = new System.Drawing.Size(247, 34);
+            this.textBoxPassword.Size = new System.Drawing.Size(186, 29);
             this.textBoxPassword.TabIndex = 4;
             this.textBoxPassword.UseSystemPasswordChar = true;
             // 
@@ -88,10 +84,9 @@
             this.labelPassword.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelPassword.AutoSize = true;
             this.labelPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelPassword.Location = new System.Drawing.Point(78, 185);
-            this.labelPassword.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelPassword.Location = new System.Drawing.Point(59, 153);
             this.labelPassword.Name = "labelPassword";
-            this.labelPassword.Size = new System.Drawing.Size(105, 29);
+            this.labelPassword.Size = new System.Drawing.Size(81, 24);
             this.labelPassword.TabIndex = 3;
             this.labelPassword.Text = "Пароль:";
             // 
@@ -99,10 +94,9 @@
             // 
             this.buttonLogIn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.buttonLogIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonLogIn.Location = new System.Drawing.Point(258, 249);
-            this.buttonLogIn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonLogIn.Location = new System.Drawing.Point(195, 205);
             this.buttonLogIn.Name = "buttonLogIn";
-            this.buttonLogIn.Size = new System.Drawing.Size(199, 68);
+            this.buttonLogIn.Size = new System.Drawing.Size(149, 55);
             this.buttonLogIn.TabIndex = 5;
             this.buttonLogIn.Text = "Войти";
             this.buttonLogIn.UseVisualStyleBackColor = true;
@@ -112,10 +106,9 @@
             // 
             this.buttonSignUp.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.buttonSignUp.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonSignUp.Location = new System.Drawing.Point(84, 343);
-            this.buttonSignUp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonSignUp.Location = new System.Drawing.Point(64, 282);
             this.buttonSignUp.Name = "buttonSignUp";
-            this.buttonSignUp.Size = new System.Drawing.Size(372, 68);
+            this.buttonSignUp.Size = new System.Drawing.Size(279, 55);
             this.buttonSignUp.TabIndex = 6;
             this.buttonSignUp.Text = "Зарегистрироваться";
             this.buttonSignUp.UseVisualStyleBackColor = true;
@@ -123,9 +116,9 @@
             // 
             // UserSelection
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(533, 482);
+            this.ClientSize = new System.Drawing.Size(402, 398);
             this.Controls.Add(this.buttonSignUp);
             this.Controls.Add(this.buttonLogIn);
             this.Controls.Add(this.textBoxPassword);
@@ -133,7 +126,8 @@
             this.Controls.Add(this.textBoxLogin);
             this.Controls.Add(this.buttonCancel);
             this.Controls.Add(this.labelLogin);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "UserSelection";
             this.Text = "UserSelection";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

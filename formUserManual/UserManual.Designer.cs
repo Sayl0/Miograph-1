@@ -39,7 +39,7 @@
             this.buttonExit.Location = new System.Drawing.Point(132, 338);
             this.buttonExit.Margin = new System.Windows.Forms.Padding(4);
             this.buttonExit.Name = "buttonExit";
-            this.buttonExit.Size = new System.Drawing.Size(237, 42);
+            this.buttonExit.Size = new System.Drawing.Size(178, 34);
             this.buttonExit.TabIndex = 10;
             this.buttonExit.Text = "Выход";
             this.buttonExit.UseVisualStyleBackColor = true;
@@ -55,7 +55,7 @@
             // 
             // UserManual
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(711, 390);
             this.Controls.Add(this.webBrowser1);

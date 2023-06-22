@@ -31,7 +31,7 @@ namespace Miograph
         /// 
 
         /*
-         this.textBoxSecondName = new PHTextBox("Фамилия");
+                    this.textBoxSecondName = new PHTextBox("Фамилия");
                     this.textBoxFirstName = new PHTextBox("Имя");
                     this.textBoxMiddleName = new PHTextBox("Отчество");
                     this.textBoxUserWeight = new PHTextBox("кг");
@@ -40,7 +40,6 @@ namespace Miograph
 
         private void InitializeComponent()
         {
-
             this.buttonExit = new System.Windows.Forms.Button();
             this.textBoxSecondName = new System.Windows.Forms.TextBox();
             this.textBoxFirstName = new System.Windows.Forms.TextBox();
@@ -63,10 +62,9 @@ namespace Miograph
             // 
             this.buttonExit.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.buttonExit.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonExit.Location = new System.Drawing.Point(60, 832);
-            this.buttonExit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.buttonExit.Location = new System.Drawing.Point(41, 542);
             this.buttonExit.Name = "buttonExit";
-            this.buttonExit.Size = new System.Drawing.Size(340, 85);
+            this.buttonExit.Size = new System.Drawing.Size(227, 55);
             this.buttonExit.TabIndex = 10;
             this.buttonExit.Text = "Выход";
             this.buttonExit.UseVisualStyleBackColor = true;
@@ -74,79 +72,91 @@ namespace Miograph
             // 
             // textBoxSecondName
             // 
-            this.textBoxSecondName = new PHTextBox("Фамилия");
             this.textBoxSecondName.AccessibleDescription = "";
             this.textBoxSecondName.AccessibleName = "";
             this.textBoxSecondName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBoxSecondName.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxSecondName.Location = new System.Drawing.Point(60, 132);
+            this.textBoxSecondName.Location = new System.Drawing.Point(41, 87);
+            this.textBoxSecondName.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxSecondName.Name = "textBoxSecondName";
-            this.textBoxSecondName.Size = new System.Drawing.Size(347, 41);
+            this.textBoxSecondName.Size = new System.Drawing.Size(233, 30);
             this.textBoxSecondName.TabIndex = 11;
             this.textBoxSecondName.Tag = "";
             this.textBoxSecondName.TextChanged += new System.EventHandler(this.textBoxSecondName_TextChanged);
+            this.textBoxSecondName.Enter += new System.EventHandler(this.textBoxSecondName_Enter);
+            this.textBoxSecondName.Leave += new System.EventHandler(this.textBoxSecondName_Leave);
             // 
             // textBoxFirstName
             // 
-            this.textBoxFirstName = new PHTextBox("Имя");
             this.textBoxFirstName.AccessibleDescription = "";
             this.textBoxFirstName.AccessibleName = "";
             this.textBoxFirstName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBoxFirstName.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxFirstName.Location = new System.Drawing.Point(60, 215);
+            this.textBoxFirstName.Location = new System.Drawing.Point(41, 141);
+            this.textBoxFirstName.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxFirstName.Name = "textBoxFirstName";
-            this.textBoxFirstName.Size = new System.Drawing.Size(347, 41);
+            this.textBoxFirstName.Size = new System.Drawing.Size(233, 30);
             this.textBoxFirstName.TabIndex = 12;
             this.textBoxFirstName.Tag = "";
-            this.textBoxFirstName.TextChanged += new System.EventHandler(this.textBoxName_TextChanged);
+            this.textBoxFirstName.TextChanged += new System.EventHandler(this.textBoxFirstName_TextChanged);
+            this.textBoxFirstName.Enter += new System.EventHandler(this.textBoxFirstName_Enter);
+            this.textBoxFirstName.Leave += new System.EventHandler(this.textBoxFirstName_Leave);
             // 
             // textBoxMiddleName
             // 
-            this.textBoxMiddleName = new PHTextBox("Отчество");
             this.textBoxMiddleName.AccessibleDescription = "";
             this.textBoxMiddleName.AccessibleName = "";
             this.textBoxMiddleName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBoxMiddleName.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxMiddleName.Location = new System.Drawing.Point(60, 302);
+            this.textBoxMiddleName.Location = new System.Drawing.Point(41, 197);
+            this.textBoxMiddleName.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxMiddleName.Name = "textBoxMiddleName";
-            this.textBoxMiddleName.Size = new System.Drawing.Size(347, 41);
+            this.textBoxMiddleName.Size = new System.Drawing.Size(233, 30);
             this.textBoxMiddleName.TabIndex = 13;
             this.textBoxMiddleName.Tag = "";
+            this.textBoxMiddleName.TextChanged += new System.EventHandler(this.textBoxMiddleName_TextChanged);
+            this.textBoxMiddleName.Enter += new System.EventHandler(this.textBoxMiddleName_Enter);
+            this.textBoxMiddleName.Leave += new System.EventHandler(this.textBoxMiddleName_Leave);
             // 
             // textBoxUserWeight
             // 
-            this.textBoxUserWeight = new PHTextBox("кг");
             this.textBoxUserWeight.AccessibleDescription = "";
             this.textBoxUserWeight.AccessibleName = "";
             this.textBoxUserWeight.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBoxUserWeight.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxUserWeight.Location = new System.Drawing.Point(194, 650);
+            this.textBoxUserWeight.Location = new System.Drawing.Point(130, 423);
+            this.textBoxUserWeight.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxUserWeight.Name = "textBoxUserWeight";
-            this.textBoxUserWeight.Size = new System.Drawing.Size(347, 41);
+            this.textBoxUserWeight.Size = new System.Drawing.Size(233, 30);
             this.textBoxUserWeight.TabIndex = 15;
             this.textBoxUserWeight.Tag = "";
+            this.textBoxUserWeight.Enter += new System.EventHandler(this.textBoxUserWeight_Enter);
+            this.textBoxUserWeight.Leave += new System.EventHandler(this.textBoxUserWeight_Leave);
             // 
             // textBoxUserHeight
             // 
-            this.textBoxUserHeight = new PHTextBox("см");
             this.textBoxUserHeight.AccessibleDescription = "";
             this.textBoxUserHeight.AccessibleName = "";
             this.textBoxUserHeight.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBoxUserHeight.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxUserHeight.Location = new System.Drawing.Point(194, 567);
+            this.textBoxUserHeight.Location = new System.Drawing.Point(130, 370);
+            this.textBoxUserHeight.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxUserHeight.Name = "textBoxUserHeight";
-            this.textBoxUserHeight.Size = new System.Drawing.Size(347, 41);
+            this.textBoxUserHeight.Size = new System.Drawing.Size(233, 30);
             this.textBoxUserHeight.TabIndex = 14;
             this.textBoxUserHeight.Tag = "";
+            this.textBoxUserHeight.Enter += new System.EventHandler(this.textBoxUserHeight_Enter);
+            this.textBoxUserHeight.Leave += new System.EventHandler(this.textBoxUserHeight_Leave);
             // 
             // dateTimePicker1
             // 
             this.dateTimePicker1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dateTimePicker1.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(246, 491);
+            this.dateTimePicker1.Location = new System.Drawing.Point(165, 320);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(2);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(295, 41);
+            this.dateTimePicker1.Size = new System.Drawing.Size(198, 30);
             this.dateTimePicker1.TabIndex = 16;
             // 
             // groupBox1
@@ -155,9 +165,11 @@ namespace Miograph
             this.groupBox1.Controls.Add(this.radioButtonWoman);
             this.groupBox1.Controls.Add(this.radioButtonMen);
             this.groupBox1.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.groupBox1.Location = new System.Drawing.Point(60, 363);
+            this.groupBox1.Location = new System.Drawing.Point(41, 237);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(200, 100);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox1.Size = new System.Drawing.Size(133, 65);
             this.groupBox1.TabIndex = 19;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Пол";
@@ -167,10 +179,9 @@ namespace Miograph
             this.radioButtonWoman.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.radioButtonWoman.AutoSize = true;
             this.radioButtonWoman.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.radioButtonWoman.Location = new System.Drawing.Point(115, 37);
-            this.radioButtonWoman.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.radioButtonWoman.Location = new System.Drawing.Point(77, 24);
             this.radioButtonWoman.Name = "radioButtonWoman";
-            this.radioButtonWoman.Size = new System.Drawing.Size(65, 38);
+            this.radioButtonWoman.Size = new System.Drawing.Size(45, 27);
             this.radioButtonWoman.TabIndex = 21;
             this.radioButtonWoman.TabStop = true;
             this.radioButtonWoman.Text = "Ж";
@@ -181,10 +192,9 @@ namespace Miograph
             this.radioButtonMen.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.radioButtonMen.AutoSize = true;
             this.radioButtonMen.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.radioButtonMen.Location = new System.Drawing.Point(24, 37);
-            this.radioButtonMen.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.radioButtonMen.Location = new System.Drawing.Point(16, 24);
             this.radioButtonMen.Name = "radioButtonMen";
-            this.radioButtonMen.Size = new System.Drawing.Size(64, 38);
+            this.radioButtonMen.Size = new System.Drawing.Size(45, 27);
             this.radioButtonMen.TabIndex = 20;
             this.radioButtonMen.TabStop = true;
             this.radioButtonMen.Text = "М";
@@ -195,9 +205,10 @@ namespace Miograph
             this.labelUserHeight.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelUserHeight.AutoSize = true;
             this.labelUserHeight.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelUserHeight.Location = new System.Drawing.Point(12, 570);
+            this.labelUserHeight.Location = new System.Drawing.Point(9, 371);
+            this.labelUserHeight.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelUserHeight.Name = "labelUserHeight";
-            this.labelUserHeight.Size = new System.Drawing.Size(77, 34);
+            this.labelUserHeight.Size = new System.Drawing.Size(52, 23);
             this.labelUserHeight.TabIndex = 20;
             this.labelUserHeight.Text = "Рост";
             // 
@@ -206,9 +217,10 @@ namespace Miograph
             this.labelUserWeight.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelUserWeight.AutoSize = true;
             this.labelUserWeight.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelUserWeight.Location = new System.Drawing.Point(12, 653);
+            this.labelUserWeight.Location = new System.Drawing.Point(9, 425);
+            this.labelUserWeight.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelUserWeight.Name = "labelUserWeight";
-            this.labelUserWeight.Size = new System.Drawing.Size(62, 34);
+            this.labelUserWeight.Size = new System.Drawing.Size(42, 23);
             this.labelUserWeight.TabIndex = 21;
             this.labelUserWeight.Text = "Вес";
             // 
@@ -217,9 +229,10 @@ namespace Miograph
             this.labelDateBirth.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelDateBirth.AutoSize = true;
             this.labelDateBirth.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelDateBirth.Location = new System.Drawing.Point(12, 491);
+            this.labelDateBirth.Location = new System.Drawing.Point(9, 320);
+            this.labelDateBirth.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelDateBirth.Name = "labelDateBirth";
-            this.labelDateBirth.Size = new System.Drawing.Size(218, 34);
+            this.labelDateBirth.Size = new System.Drawing.Size(148, 23);
             this.labelDateBirth.TabIndex = 22;
             this.labelDateBirth.Text = "Дата рождения";
             // 
@@ -227,30 +240,31 @@ namespace Miograph
             // 
             this.buttonNext.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.buttonNext.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonNext.Location = new System.Drawing.Point(422, 832);
-            this.buttonNext.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.buttonNext.Location = new System.Drawing.Point(282, 542);
             this.buttonNext.Name = "buttonNext";
-            this.buttonNext.Size = new System.Drawing.Size(340, 85);
+            this.buttonNext.Size = new System.Drawing.Size(227, 55);
             this.buttonNext.TabIndex = 23;
             this.buttonNext.Text = "Далее";
             this.buttonNext.UseVisualStyleBackColor = true;
+            this.buttonNext.Click += new System.EventHandler(this.buttonNext_Click);
             // 
             // labelMedicalHistory
             // 
             this.labelMedicalHistory.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelMedicalHistory.AutoSize = true;
             this.labelMedicalHistory.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelMedicalHistory.Location = new System.Drawing.Point(54, 61);
+            this.labelMedicalHistory.Location = new System.Drawing.Point(37, 41);
+            this.labelMedicalHistory.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelMedicalHistory.Name = "labelMedicalHistory";
-            this.labelMedicalHistory.Size = new System.Drawing.Size(223, 34);
+            this.labelMedicalHistory.Size = new System.Drawing.Size(152, 23);
             this.labelMedicalHistory.TabIndex = 24;
             this.labelMedicalHistory.Text = "Карта пациента";
             // 
             // AddUser
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 1074);
+            this.ClientSize = new System.Drawing.Size(534, 701);
             this.Controls.Add(this.labelMedicalHistory);
             this.Controls.Add(this.buttonNext);
             this.Controls.Add(this.labelDateBirth);
@@ -264,8 +278,11 @@ namespace Miograph
             this.Controls.Add(this.textBoxFirstName);
             this.Controls.Add(this.textBoxSecondName);
             this.Controls.Add(this.buttonExit);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "AddUser";
             this.Text = "AddUser";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.AddUser_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

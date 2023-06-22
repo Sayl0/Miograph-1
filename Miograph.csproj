@@ -70,6 +70,18 @@
     <Compile Include="formUserSelection\PersonalProfile\AddUser\AddUser.Designer.cs">
       <DependentUpon>AddUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\AddUser\AnamnesisDiagnosis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\AddUser\AnamnesisDiagnosis.Designer.cs">
+      <DependentUpon>AnamnesisDiagnosis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\AddUser\PersonalData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\AddUser\PersonalData.Designer.cs">
+      <DependentUpon>PersonalData.cs</DependentUpon>
+    </Compile>
     <Compile Include="HomePage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -146,6 +158,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="formUserSelection\PersonalProfile\AddUser\AddUser.resx">
       <DependentUpon>AddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formUserSelection\PersonalProfile\AddUser\AnamnesisDiagnosis.resx">
+      <DependentUpon>AnamnesisDiagnosis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formUserSelection\PersonalProfile\AddUser\PersonalData.resx">
+      <DependentUpon>PersonalData.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HomePage.resx">
       <DependentUpon>HomePage.cs</DependentUpon>

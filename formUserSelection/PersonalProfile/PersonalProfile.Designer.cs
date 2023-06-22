@@ -38,10 +38,9 @@
             // 
             this.labelDoctorName.AutoSize = true;
             this.labelDoctorName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelDoctorName.Location = new System.Drawing.Point(30, 46);
-            this.labelDoctorName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelDoctorName.Location = new System.Drawing.Point(22, 37);
             this.labelDoctorName.Name = "labelDoctorName";
-            this.labelDoctorName.Size = new System.Drawing.Size(258, 29);
+            this.labelDoctorName.Size = new System.Drawing.Size(197, 24);
             this.labelDoctorName.TabIndex = 0;
             this.labelDoctorName.Text = "Врач ФИО/Пациенты";
             // 
@@ -49,10 +48,9 @@
             // 
             this.buttonExit.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.buttonExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonExit.Location = new System.Drawing.Point(36, 434);
-            this.buttonExit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonExit.Location = new System.Drawing.Point(27, 354);
             this.buttonExit.Name = "buttonExit";
-            this.buttonExit.Size = new System.Drawing.Size(302, 68);
+            this.buttonExit.Size = new System.Drawing.Size(226, 55);
             this.buttonExit.TabIndex = 9;
             this.buttonExit.Text = "Выход";
             this.buttonExit.UseVisualStyleBackColor = true;
@@ -62,10 +60,9 @@
             // 
             this.buttonSelectUser.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.buttonSelectUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonSelectUser.Location = new System.Drawing.Point(708, 434);
-            this.buttonSelectUser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonSelectUser.Location = new System.Drawing.Point(531, 354);
             this.buttonSelectUser.Name = "buttonSelectUser";
-            this.buttonSelectUser.Size = new System.Drawing.Size(302, 68);
+            this.buttonSelectUser.Size = new System.Drawing.Size(226, 55);
             this.buttonSelectUser.TabIndex = 10;
             this.buttonSelectUser.Text = "Выбрать пациента";
             this.buttonSelectUser.UseVisualStyleBackColor = true;
@@ -75,10 +72,9 @@
             // 
             this.buttonAddUser.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.buttonAddUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonAddUser.Location = new System.Drawing.Point(382, 434);
-            this.buttonAddUser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonAddUser.Location = new System.Drawing.Point(286, 354);
             this.buttonAddUser.Name = "buttonAddUser";
-            this.buttonAddUser.Size = new System.Drawing.Size(302, 68);
+            this.buttonAddUser.Size = new System.Drawing.Size(226, 55);
             this.buttonAddUser.TabIndex = 11;
             this.buttonAddUser.Text = "Добавить пациента";
             this.buttonAddUser.UseVisualStyleBackColor = true;
@@ -86,14 +82,14 @@
             // 
             // PersonalProfile
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(801, 453);
             this.Controls.Add(this.buttonAddUser);
             this.Controls.Add(this.buttonSelectUser);
             this.Controls.Add(this.buttonExit);
             this.Controls.Add(this.labelDoctorName);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "PersonalProfile";
             this.Text = "PersonalProfile";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
