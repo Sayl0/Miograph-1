@@ -41,11 +41,11 @@
             // 
             this.labelAnamnesisDiagnosis.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelAnamnesisDiagnosis.AutoSize = true;
-            this.labelAnamnesisDiagnosis.Font = new System.Drawing.Font("Roboto", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelAnamnesisDiagnosis.Location = new System.Drawing.Point(64, 27);
+            this.labelAnamnesisDiagnosis.Font = new System.Drawing.Font("Roboto Medium", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelAnamnesisDiagnosis.Location = new System.Drawing.Point(64, 40);
             this.labelAnamnesisDiagnosis.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.labelAnamnesisDiagnosis.Name = "labelAnamnesisDiagnosis";
-            this.labelAnamnesisDiagnosis.Size = new System.Drawing.Size(421, 29);
+            this.labelAnamnesisDiagnosis.Size = new System.Drawing.Size(419, 29);
             this.labelAnamnesisDiagnosis.TabIndex = 0;
             this.labelAnamnesisDiagnosis.Text = "Карта пациента > Анамнез/Диагноз";
             this.labelAnamnesisDiagnosis.Click += new System.EventHandler(this.labelAnamnesisDiagnosis_Click);
@@ -55,7 +55,7 @@
             this.labelAnamnesis.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelAnamnesis.AutoSize = true;
             this.labelAnamnesis.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelAnamnesis.Location = new System.Drawing.Point(65, 84);
+            this.labelAnamnesis.Location = new System.Drawing.Point(65, 115);
             this.labelAnamnesis.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.labelAnamnesis.Name = "labelAnamnesis";
             this.labelAnamnesis.Size = new System.Drawing.Size(88, 23);
@@ -67,7 +67,7 @@
             this.labelDiagnosis.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelDiagnosis.AutoSize = true;
             this.labelDiagnosis.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelDiagnosis.Location = new System.Drawing.Point(65, 346);
+            this.labelDiagnosis.Location = new System.Drawing.Point(65, 377);
             this.labelDiagnosis.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.labelDiagnosis.Name = "labelDiagnosis";
             this.labelDiagnosis.Size = new System.Drawing.Size(85, 23);
@@ -78,8 +78,8 @@
             // richTextBoxAnamnesis
             // 
             this.richTextBoxAnamnesis.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.richTextBoxAnamnesis.Location = new System.Drawing.Point(69, 114);
-            this.richTextBoxAnamnesis.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.richTextBoxAnamnesis.Location = new System.Drawing.Point(69, 145);
+            this.richTextBoxAnamnesis.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBoxAnamnesis.Name = "richTextBoxAnamnesis";
             this.richTextBoxAnamnesis.Size = new System.Drawing.Size(774, 218);
             this.richTextBoxAnamnesis.TabIndex = 3;
@@ -89,10 +89,10 @@
             // richTextBoxDiagnosis
             // 
             this.richTextBoxDiagnosis.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.richTextBoxDiagnosis.Location = new System.Drawing.Point(69, 384);
-            this.richTextBoxDiagnosis.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.richTextBoxDiagnosis.Location = new System.Drawing.Point(69, 415);
+            this.richTextBoxDiagnosis.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBoxDiagnosis.Name = "richTextBoxDiagnosis";
-            this.richTextBoxDiagnosis.Size = new System.Drawing.Size(774, 211);
+            this.richTextBoxDiagnosis.Size = new System.Drawing.Size(774, 222);
             this.richTextBoxDiagnosis.TabIndex = 4;
             this.richTextBoxDiagnosis.Text = "";
             this.richTextBoxDiagnosis.TextChanged += new System.EventHandler(this.richTextBoxDiagnosis_TextChanged);
@@ -101,7 +101,7 @@
             // 
             this.buttonExit.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.buttonExit.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonExit.Location = new System.Drawing.Point(110, 631);
+            this.buttonExit.Location = new System.Drawing.Point(118, 689);
             this.buttonExit.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.buttonExit.Name = "buttonExit";
             this.buttonExit.Size = new System.Drawing.Size(286, 71);
@@ -114,7 +114,7 @@
             // 
             this.buttonNext.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.buttonNext.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonNext.Location = new System.Drawing.Point(459, 631);
+            this.buttonNext.Location = new System.Drawing.Point(467, 689);
             this.buttonNext.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.buttonNext.Name = "buttonNext";
             this.buttonNext.Size = new System.Drawing.Size(321, 71);
@@ -127,7 +127,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1129, 716);
+            this.ClientSize = new System.Drawing.Size(1129, 793);
             this.Controls.Add(this.buttonNext);
             this.Controls.Add(this.buttonExit);
             this.Controls.Add(this.richTextBoxDiagnosis);

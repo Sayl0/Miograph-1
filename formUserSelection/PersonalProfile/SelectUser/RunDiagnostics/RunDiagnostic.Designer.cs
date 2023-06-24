@@ -38,7 +38,7 @@
             // ExitButton
             // 
             this.ExitButton.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.ExitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ExitButton.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ExitButton.Location = new System.Drawing.Point(34, 431);
             this.ExitButton.Margin = new System.Windows.Forms.Padding(2);
             this.ExitButton.Name = "ExitButton";
@@ -51,7 +51,7 @@
             // buttonAnkleMuscleStrength
             // 
             this.buttonAnkleMuscleStrength.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.buttonAnkleMuscleStrength.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonAnkleMuscleStrength.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonAnkleMuscleStrength.Location = new System.Drawing.Point(34, 204);
             this.buttonAnkleMuscleStrength.Margin = new System.Windows.Forms.Padding(2);
             this.buttonAnkleMuscleStrength.Name = "buttonAnkleMuscleStrength";
@@ -64,7 +64,7 @@
             // buttonFootMobility
             // 
             this.buttonFootMobility.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.buttonFootMobility.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonFootMobility.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonFootMobility.Location = new System.Drawing.Point(34, 116);
             this.buttonFootMobility.Margin = new System.Windows.Forms.Padding(2);
             this.buttonFootMobility.Name = "buttonFootMobility";
@@ -77,7 +77,7 @@
             // buttonKneeMobility
             // 
             this.buttonKneeMobility.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.buttonKneeMobility.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonKneeMobility.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonKneeMobility.Location = new System.Drawing.Point(34, 31);
             this.buttonKneeMobility.Margin = new System.Windows.Forms.Padding(2);
             this.buttonKneeMobility.Name = "buttonKneeMobility";
@@ -90,7 +90,7 @@
             // buttonHipMuscleStrength
             // 
             this.buttonHipMuscleStrength.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.buttonHipMuscleStrength.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonHipMuscleStrength.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonHipMuscleStrength.Location = new System.Drawing.Point(34, 292);
             this.buttonHipMuscleStrength.Margin = new System.Windows.Forms.Padding(2);
             this.buttonHipMuscleStrength.Name = "buttonHipMuscleStrength";
@@ -100,7 +100,7 @@
             this.buttonHipMuscleStrength.UseVisualStyleBackColor = true;
             this.buttonHipMuscleStrength.Click += new System.EventHandler(this.buttonHipMuscleStrength_Click);
             // 
-            // RunDiagnostics
+            // RunDiagnostic
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -113,7 +113,7 @@
             this.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.Name = "RunDiagnostics";
+            this.Name = "RunDiagnostic";
             this.Text = "RunDiagnostics";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);

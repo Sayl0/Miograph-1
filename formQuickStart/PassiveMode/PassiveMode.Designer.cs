@@ -48,9 +48,9 @@
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.Location = new System.Drawing.Point(9, 98);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(380, 284);
+            this.pictureBox1.Size = new System.Drawing.Size(521, 341);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -58,11 +58,11 @@
             // cancelButton
             // 
             this.cancelButton.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.cancelButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.cancelButton.Location = new System.Drawing.Point(9, 387);
-            this.cancelButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cancelButton.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.cancelButton.Location = new System.Drawing.Point(25, 473);
+            this.cancelButton.Margin = new System.Windows.Forms.Padding(2);
             this.cancelButton.Name = "cancelButton";
-            this.cancelButton.Size = new System.Drawing.Size(188, 65);
+            this.cancelButton.Size = new System.Drawing.Size(229, 65);
             this.cancelButton.TabIndex = 2;
             this.cancelButton.Text = "Отмена";
             this.cancelButton.UseVisualStyleBackColor = true;
@@ -71,11 +71,11 @@
             // startButton
             // 
             this.startButton.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.startButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.startButton.Location = new System.Drawing.Point(201, 387);
-            this.startButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.startButton.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.startButton.Location = new System.Drawing.Point(296, 473);
+            this.startButton.Margin = new System.Windows.Forms.Padding(2);
             this.startButton.Name = "startButton";
-            this.startButton.Size = new System.Drawing.Size(188, 65);
+            this.startButton.Size = new System.Drawing.Size(229, 65);
             this.startButton.TabIndex = 3;
             this.startButton.Text = "Приступить";
             this.startButton.UseVisualStyleBackColor = true;
@@ -84,11 +84,11 @@
             // modeText
             // 
             this.modeText.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.modeText.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.modeText.Location = new System.Drawing.Point(9, 7);
+            this.modeText.Font = new System.Drawing.Font("Roboto Medium", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.modeText.Location = new System.Drawing.Point(11, 19);
             this.modeText.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.modeText.Name = "modeText";
-            this.modeText.Size = new System.Drawing.Size(225, 32);
+            this.modeText.Size = new System.Drawing.Size(283, 32);
             this.modeText.TabIndex = 4;
             this.modeText.Text = "Пассивный режим";
             this.modeText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -97,8 +97,8 @@
             // label1
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(439, 98);
+            this.label1.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(560, 98);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(120, 32);
@@ -110,8 +110,8 @@
             // label2
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(439, 130);
+            this.label2.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(561, 132);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(120, 32);
@@ -123,8 +123,8 @@
             // label3
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(439, 162);
+            this.label3.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.Location = new System.Drawing.Point(561, 166);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(120, 32);
@@ -136,52 +136,52 @@
             // timeBox
             // 
             this.timeBox.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.timeBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.timeBox.Location = new System.Drawing.Point(564, 102);
-            this.timeBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.timeBox.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.timeBox.Location = new System.Drawing.Point(684, 100);
+            this.timeBox.Margin = new System.Windows.Forms.Padding(2);
             this.timeBox.Name = "timeBox";
-            this.timeBox.Size = new System.Drawing.Size(76, 28);
+            this.timeBox.Size = new System.Drawing.Size(76, 30);
             this.timeBox.TabIndex = 8;
             this.timeBox.TextChanged += new System.EventHandler(this.timeBox_TextChanged);
             // 
             // stepBox
             // 
             this.stepBox.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.stepBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.stepBox.Location = new System.Drawing.Point(564, 135);
-            this.stepBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.stepBox.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.stepBox.Location = new System.Drawing.Point(685, 134);
+            this.stepBox.Margin = new System.Windows.Forms.Padding(2);
             this.stepBox.Name = "stepBox";
-            this.stepBox.Size = new System.Drawing.Size(76, 28);
+            this.stepBox.Size = new System.Drawing.Size(76, 30);
             this.stepBox.TabIndex = 9;
             this.stepBox.TextChanged += new System.EventHandler(this.stepBox_TextChanged);
             // 
             // speedBox
             // 
             this.speedBox.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.speedBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.speedBox.Location = new System.Drawing.Point(564, 167);
-            this.speedBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.speedBox.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.speedBox.Location = new System.Drawing.Point(685, 168);
+            this.speedBox.Margin = new System.Windows.Forms.Padding(2);
             this.speedBox.Name = "speedBox";
-            this.speedBox.Size = new System.Drawing.Size(76, 28);
+            this.speedBox.Size = new System.Drawing.Size(76, 30);
             this.speedBox.TabIndex = 10;
             this.speedBox.TextChanged += new System.EventHandler(this.speedBox_TextChanged);
             // 
             // angleBox
             // 
             this.angleBox.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.angleBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.angleBox.Location = new System.Drawing.Point(442, 249);
-            this.angleBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.angleBox.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.angleBox.Location = new System.Drawing.Point(549, 245);
+            this.angleBox.Margin = new System.Windows.Forms.Padding(2);
             this.angleBox.Name = "angleBox";
-            this.angleBox.Size = new System.Drawing.Size(76, 28);
+            this.angleBox.Size = new System.Drawing.Size(76, 30);
             this.angleBox.TabIndex = 11;
             this.angleBox.TextChanged += new System.EventHandler(this.angleBox_TextChanged);
             // 
             // settingsBox
             // 
             this.settingsBox.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.settingsBox.Location = new System.Drawing.Point(564, 212);
-            this.settingsBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.settingsBox.Location = new System.Drawing.Point(671, 236);
+            this.settingsBox.Margin = new System.Windows.Forms.Padding(2);
             this.settingsBox.Name = "settingsBox";
             this.settingsBox.Size = new System.Drawing.Size(90, 98);
             this.settingsBox.TabIndex = 12;
@@ -206,7 +206,7 @@
             this.Controls.Add(this.cancelButton);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "PassiveMode";
             this.Text = "PassiveMode";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

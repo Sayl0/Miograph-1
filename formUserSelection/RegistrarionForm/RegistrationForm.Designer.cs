@@ -46,8 +46,8 @@
             // buttonSignUp
             // 
             this.buttonSignUp.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.buttonSignUp.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonSignUp.Location = new System.Drawing.Point(188, 394);
+            this.buttonSignUp.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonSignUp.Location = new System.Drawing.Point(317, 455);
             this.buttonSignUp.Name = "buttonSignUp";
             this.buttonSignUp.Size = new System.Drawing.Size(279, 55);
             this.buttonSignUp.TabIndex = 13;
@@ -58,7 +58,7 @@
             // 
             this.textBoxPassword.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBoxPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxPassword.Location = new System.Drawing.Point(281, 252);
+            this.textBoxPassword.Location = new System.Drawing.Point(397, 299);
             this.textBoxPassword.Name = "textBoxPassword";
             this.textBoxPassword.Size = new System.Drawing.Size(186, 29);
             this.textBoxPassword.TabIndex = 11;
@@ -68,10 +68,10 @@
             // 
             this.labelPassword.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelPassword.AutoSize = true;
-            this.labelPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelPassword.Location = new System.Drawing.Point(184, 255);
+            this.labelPassword.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelPassword.Location = new System.Drawing.Point(300, 302);
             this.labelPassword.Name = "labelPassword";
-            this.labelPassword.Size = new System.Drawing.Size(81, 24);
+            this.labelPassword.Size = new System.Drawing.Size(82, 23);
             this.labelPassword.TabIndex = 10;
             this.labelPassword.Text = "Пароль:";
             // 
@@ -79,7 +79,7 @@
             // 
             this.textBoxLogin.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBoxLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxLogin.Location = new System.Drawing.Point(281, 203);
+            this.textBoxLogin.Location = new System.Drawing.Point(397, 250);
             this.textBoxLogin.Name = "textBoxLogin";
             this.textBoxLogin.Size = new System.Drawing.Size(186, 29);
             this.textBoxLogin.TabIndex = 9;
@@ -87,8 +87,8 @@
             // buttonCancel
             // 
             this.buttonCancel.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.buttonCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonCancel.Location = new System.Drawing.Point(188, 478);
+            this.buttonCancel.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonCancel.Location = new System.Drawing.Point(317, 539);
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(279, 55);
             this.buttonCancel.TabIndex = 8;
@@ -100,10 +100,10 @@
             // 
             this.labelLogin.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelLogin.AutoSize = true;
-            this.labelLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelLogin.Location = new System.Drawing.Point(197, 206);
+            this.labelLogin.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelLogin.Location = new System.Drawing.Point(313, 253);
             this.labelLogin.Name = "labelLogin";
-            this.labelLogin.Size = new System.Drawing.Size(69, 24);
+            this.labelLogin.Size = new System.Drawing.Size(69, 23);
             this.labelLogin.TabIndex = 7;
             this.labelLogin.Text = "Логин:";
             // 
@@ -111,7 +111,7 @@
             // 
             this.textBoxPasswordConfirm.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBoxPasswordConfirm.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxPasswordConfirm.Location = new System.Drawing.Point(281, 302);
+            this.textBoxPasswordConfirm.Location = new System.Drawing.Point(397, 349);
             this.textBoxPasswordConfirm.Name = "textBoxPasswordConfirm";
             this.textBoxPasswordConfirm.Size = new System.Drawing.Size(186, 29);
             this.textBoxPasswordConfirm.TabIndex = 15;
@@ -121,10 +121,10 @@
             // 
             this.labelConfirm.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelConfirm.AutoSize = true;
-            this.labelConfirm.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelConfirm.Location = new System.Drawing.Point(66, 309);
+            this.labelConfirm.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelConfirm.Location = new System.Drawing.Point(182, 356);
             this.labelConfirm.Name = "labelConfirm";
-            this.labelConfirm.Size = new System.Drawing.Size(207, 24);
+            this.labelConfirm.Size = new System.Drawing.Size(200, 23);
             this.labelConfirm.TabIndex = 14;
             this.labelConfirm.Text = "Подтвердите пароль:";
             // 
@@ -132,7 +132,7 @@
             // 
             this.textBoxFullName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBoxFullName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxFullName.Location = new System.Drawing.Point(281, 153);
+            this.textBoxFullName.Location = new System.Drawing.Point(397, 200);
             this.textBoxFullName.Name = "textBoxFullName";
             this.textBoxFullName.Size = new System.Drawing.Size(186, 29);
             this.textBoxFullName.TabIndex = 17;
@@ -141,10 +141,10 @@
             // 
             this.labelFullName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelFullName.AutoSize = true;
-            this.labelFullName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelFullName.Location = new System.Drawing.Point(35, 156);
+            this.labelFullName.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelFullName.Location = new System.Drawing.Point(151, 203);
             this.labelFullName.Name = "labelFullName";
-            this.labelFullName.Size = new System.Drawing.Size(234, 24);
+            this.labelFullName.Size = new System.Drawing.Size(231, 23);
             this.labelFullName.TabIndex = 16;
             this.labelFullName.Text = "Фамилия, имя, отчество:";
             // 
@@ -152,9 +152,10 @@
             // 
             this.radioButtonDoctor.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.radioButtonDoctor.AutoSize = true;
-            this.radioButtonDoctor.Location = new System.Drawing.Point(544, 153);
+            this.radioButtonDoctor.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.radioButtonDoctor.Location = new System.Drawing.Point(664, 199);
             this.radioButtonDoctor.Name = "radioButtonDoctor";
-            this.radioButtonDoctor.Size = new System.Drawing.Size(49, 17);
+            this.radioButtonDoctor.Size = new System.Drawing.Size(71, 27);
             this.radioButtonDoctor.TabIndex = 18;
             this.radioButtonDoctor.TabStop = true;
             this.radioButtonDoctor.Text = "Врач";
@@ -164,9 +165,10 @@
             // 
             this.radioButtonOperator.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.radioButtonOperator.AutoSize = true;
-            this.radioButtonOperator.Location = new System.Drawing.Point(544, 176);
+            this.radioButtonOperator.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.radioButtonOperator.Location = new System.Drawing.Point(664, 232);
             this.radioButtonOperator.Name = "radioButtonOperator";
-            this.radioButtonOperator.Size = new System.Drawing.Size(74, 17);
+            this.radioButtonOperator.Size = new System.Drawing.Size(114, 27);
             this.radioButtonOperator.TabIndex = 19;
             this.radioButtonOperator.TabStop = true;
             this.radioButtonOperator.Text = "Оператор";
@@ -176,10 +178,10 @@
             // 
             this.labelRegistrationForm.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelRegistrationForm.AutoSize = true;
-            this.labelRegistrationForm.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelRegistrationForm.Location = new System.Drawing.Point(278, 95);
+            this.labelRegistrationForm.Font = new System.Drawing.Font("Roboto Condensed", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelRegistrationForm.Location = new System.Drawing.Point(383, 128);
             this.labelRegistrationForm.Name = "labelRegistrationForm";
-            this.labelRegistrationForm.Size = new System.Drawing.Size(209, 24);
+            this.labelRegistrationForm.Size = new System.Drawing.Size(213, 29);
             this.labelRegistrationForm.TabIndex = 20;
             this.labelRegistrationForm.Text = "Форма регистрации";
             // 
@@ -187,7 +189,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(659, 607);
+            this.ClientSize = new System.Drawing.Size(890, 701);
             this.Controls.Add(this.labelRegistrationForm);
             this.Controls.Add(this.radioButtonOperator);
             this.Controls.Add(this.radioButtonDoctor);

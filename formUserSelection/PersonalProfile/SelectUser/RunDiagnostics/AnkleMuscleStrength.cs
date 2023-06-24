@@ -21,5 +21,15 @@ namespace Miograph.formUserSelection.PersonalProfile.SelectUser.RunDiagnostics
         {
             this.Close();
         }
+
+        private void buttonRegistration_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void buttonCancel_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

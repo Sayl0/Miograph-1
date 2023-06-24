@@ -17,9 +17,26 @@ namespace Miograph.formUserSelection.PersonalProfile.SelectUser.RunDiagnostics
             InitializeComponent();
         }
 
-        private void ExitButton_Click(object sender, EventArgs e)
+
+        private void buttonSave_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void buttonStarted_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void buttonCancel_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        // Диапазон
+        private void timeBox_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

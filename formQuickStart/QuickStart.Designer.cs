@@ -38,8 +38,8 @@
             // exitButton
             // 
             this.exitButton.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.exitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.exitButton.Location = new System.Drawing.Point(6, 378);
+            this.exitButton.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.exitButton.Location = new System.Drawing.Point(6, 411);
             this.exitButton.Margin = new System.Windows.Forms.Padding(2);
             this.exitButton.Name = "exitButton";
             this.exitButton.Size = new System.Drawing.Size(150, 65);
@@ -51,7 +51,7 @@
             // passiveButton
             // 
             this.passiveButton.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.passiveButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.passiveButton.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.passiveButton.Location = new System.Drawing.Point(158, 71);
             this.passiveButton.Margin = new System.Windows.Forms.Padding(2);
             this.passiveButton.Name = "passiveButton";
@@ -64,8 +64,8 @@
             // passiveAnkleButton
             // 
             this.passiveAnkleButton.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.passiveAnkleButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.passiveAnkleButton.Location = new System.Drawing.Point(158, 141);
+            this.passiveAnkleButton.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.passiveAnkleButton.Location = new System.Drawing.Point(158, 153);
             this.passiveAnkleButton.Margin = new System.Windows.Forms.Padding(2);
             this.passiveAnkleButton.Name = "passiveAnkleButton";
             this.passiveAnkleButton.Size = new System.Drawing.Size(300, 65);
@@ -77,8 +77,8 @@
             // activePassiveButton
             // 
             this.activePassiveButton.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.activePassiveButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.activePassiveButton.Location = new System.Drawing.Point(158, 211);
+            this.activePassiveButton.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.activePassiveButton.Location = new System.Drawing.Point(158, 234);
             this.activePassiveButton.Margin = new System.Windows.Forms.Padding(2);
             this.activePassiveButton.Name = "activePassiveButton";
             this.activePassiveButton.Size = new System.Drawing.Size(300, 65);
@@ -90,8 +90,8 @@
             // activeButton
             // 
             this.activeButton.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.activeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.activeButton.Location = new System.Drawing.Point(158, 280);
+            this.activeButton.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.activeButton.Location = new System.Drawing.Point(158, 313);
             this.activeButton.Margin = new System.Windows.Forms.Padding(2);
             this.activeButton.Name = "activeButton";
             this.activeButton.Size = new System.Drawing.Size(300, 65);

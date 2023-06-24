@@ -50,10 +50,10 @@
             // 
             this.buttonBack.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.buttonBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonBack.Location = new System.Drawing.Point(230, 569);
+            this.buttonBack.Location = new System.Drawing.Point(207, 599);
             this.buttonBack.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.buttonBack.Name = "buttonBack";
-            this.buttonBack.Size = new System.Drawing.Size(195, 58);
+            this.buttonBack.Size = new System.Drawing.Size(218, 66);
             this.buttonBack.TabIndex = 10;
             this.buttonBack.Text = "Назад";
             this.buttonBack.UseVisualStyleBackColor = true;
@@ -63,7 +63,7 @@
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Roboto", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Font = new System.Drawing.Font("Roboto Medium", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.Location = new System.Drawing.Point(66, 88);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(191, 29);
@@ -76,7 +76,7 @@
             this.textBoxMiddleName.AccessibleName = "";
             this.textBoxMiddleName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBoxMiddleName.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxMiddleName.Location = new System.Drawing.Point(230, 261);
+            this.textBoxMiddleName.Location = new System.Drawing.Point(230, 260);
             this.textBoxMiddleName.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxMiddleName.Name = "textBoxMiddleName";
             this.textBoxMiddleName.Size = new System.Drawing.Size(233, 30);
@@ -89,7 +89,7 @@
             this.textBoxFirstName.AccessibleName = "";
             this.textBoxFirstName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBoxFirstName.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxFirstName.Location = new System.Drawing.Point(230, 214);
+            this.textBoxFirstName.Location = new System.Drawing.Point(230, 213);
             this.textBoxFirstName.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxFirstName.Name = "textBoxFirstName";
             this.textBoxFirstName.Size = new System.Drawing.Size(233, 30);
@@ -102,7 +102,7 @@
             this.textBoxSecondName.AccessibleName = "";
             this.textBoxSecondName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBoxSecondName.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxSecondName.Location = new System.Drawing.Point(230, 166);
+            this.textBoxSecondName.Location = new System.Drawing.Point(230, 165);
             this.textBoxSecondName.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxSecondName.Name = "textBoxSecondName";
             this.textBoxSecondName.Size = new System.Drawing.Size(233, 30);
@@ -113,7 +113,7 @@
             // 
             this.labellSecondName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labellSecondName.AutoSize = true;
-            this.labellSecondName.Location = new System.Drawing.Point(67, 169);
+            this.labellSecondName.Location = new System.Drawing.Point(67, 168);
             this.labellSecondName.Name = "labellSecondName";
             this.labellSecondName.Size = new System.Drawing.Size(92, 23);
             this.labellSecondName.TabIndex = 17;
@@ -123,7 +123,7 @@
             // 
             this.labeFirstName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labeFirstName.AutoSize = true;
-            this.labeFirstName.Location = new System.Drawing.Point(67, 214);
+            this.labeFirstName.Location = new System.Drawing.Point(67, 213);
             this.labeFirstName.Name = "labeFirstName";
             this.labeFirstName.Size = new System.Drawing.Size(48, 23);
             this.labeFirstName.TabIndex = 18;
@@ -133,7 +133,7 @@
             // 
             this.labelMidlename.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelMidlename.AutoSize = true;
-            this.labelMidlename.Location = new System.Drawing.Point(67, 261);
+            this.labelMidlename.Location = new System.Drawing.Point(67, 260);
             this.labelMidlename.Name = "labelMidlename";
             this.labelMidlename.Size = new System.Drawing.Size(93, 23);
             this.labelMidlename.TabIndex = 19;
@@ -142,9 +142,9 @@
             // buttonEditMap
             // 
             this.buttonEditMap.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.buttonEditMap.Location = new System.Drawing.Point(603, 132);
+            this.buttonEditMap.Location = new System.Drawing.Point(603, 135);
             this.buttonEditMap.Name = "buttonEditMap";
-            this.buttonEditMap.Size = new System.Drawing.Size(160, 60);
+            this.buttonEditMap.Size = new System.Drawing.Size(256, 60);
             this.buttonEditMap.TabIndex = 20;
             this.buttonEditMap.Text = "Редактировать карту";
             this.buttonEditMap.UseVisualStyleBackColor = true;
@@ -153,9 +153,9 @@
             // buttonRunDiagnostics
             // 
             this.buttonRunDiagnostics.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.buttonRunDiagnostics.Location = new System.Drawing.Point(603, 204);
+            this.buttonRunDiagnostics.Location = new System.Drawing.Point(603, 207);
             this.buttonRunDiagnostics.Name = "buttonRunDiagnostics";
-            this.buttonRunDiagnostics.Size = new System.Drawing.Size(160, 60);
+            this.buttonRunDiagnostics.Size = new System.Drawing.Size(256, 60);
             this.buttonRunDiagnostics.TabIndex = 21;
             this.buttonRunDiagnostics.Text = "Провести диагностику";
             this.buttonRunDiagnostics.UseVisualStyleBackColor = true;
@@ -164,9 +164,9 @@
             // buttonCourseParmeters
             // 
             this.buttonCourseParmeters.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.buttonCourseParmeters.Location = new System.Drawing.Point(603, 290);
+            this.buttonCourseParmeters.Location = new System.Drawing.Point(603, 284);
             this.buttonCourseParmeters.Name = "buttonCourseParmeters";
-            this.buttonCourseParmeters.Size = new System.Drawing.Size(160, 60);
+            this.buttonCourseParmeters.Size = new System.Drawing.Size(256, 60);
             this.buttonCourseParmeters.TabIndex = 22;
             this.buttonCourseParmeters.Text = "Пармаетры курса";
             this.buttonCourseParmeters.UseVisualStyleBackColor = true;
@@ -175,10 +175,10 @@
             // 
             this.buttonGenerateStatement.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.buttonGenerateStatement.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonGenerateStatement.Location = new System.Drawing.Point(603, 569);
+            this.buttonGenerateStatement.Location = new System.Drawing.Point(603, 599);
             this.buttonGenerateStatement.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.buttonGenerateStatement.Name = "buttonGenerateStatement";
-            this.buttonGenerateStatement.Size = new System.Drawing.Size(160, 58);
+            this.buttonGenerateStatement.Size = new System.Drawing.Size(256, 66);
             this.buttonGenerateStatement.TabIndex = 23;
             this.buttonGenerateStatement.Text = "Сформировать выписку";
             this.buttonGenerateStatement.UseVisualStyleBackColor = true;
@@ -187,7 +187,7 @@
             // 
             this.labelDateDiagnosis.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelDateDiagnosis.AutoSize = true;
-            this.labelDateDiagnosis.Location = new System.Drawing.Point(66, 338);
+            this.labelDateDiagnosis.Location = new System.Drawing.Point(67, 379);
             this.labelDateDiagnosis.Name = "labelDateDiagnosis";
             this.labelDateDiagnosis.Size = new System.Drawing.Size(283, 23);
             this.labelDateDiagnosis.TabIndex = 24;
@@ -197,7 +197,7 @@
             // 
             this.labelNoDiagnostics.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelNoDiagnostics.AutoSize = true;
-            this.labelNoDiagnostics.Location = new System.Drawing.Point(67, 381);
+            this.labelNoDiagnostics.Location = new System.Drawing.Point(67, 426);
             this.labelNoDiagnostics.Name = "labelNoDiagnostics";
             this.labelNoDiagnostics.Size = new System.Drawing.Size(273, 23);
             this.labelNoDiagnostics.TabIndex = 25;
@@ -207,7 +207,7 @@
             // 
             this.labelFormationDate.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelFormationDate.AutoSize = true;
-            this.labelFormationDate.Location = new System.Drawing.Point(67, 424);
+            this.labelFormationDate.Location = new System.Drawing.Point(67, 478);
             this.labelFormationDate.Name = "labelFormationDate";
             this.labelFormationDate.Size = new System.Drawing.Size(254, 23);
             this.labelFormationDate.TabIndex = 26;
@@ -217,7 +217,7 @@
             // 
             this.labelNotFormed.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelNotFormed.AutoSize = true;
-            this.labelNotFormed.Location = new System.Drawing.Point(67, 466);
+            this.labelNotFormed.Location = new System.Drawing.Point(67, 531);
             this.labelNotFormed.Name = "labelNotFormed";
             this.labelNotFormed.Size = new System.Drawing.Size(164, 23);
             this.labelNotFormed.TabIndex = 27;
@@ -227,7 +227,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(985, 681);
+            this.ClientSize = new System.Drawing.Size(985, 714);
             this.Controls.Add(this.labelNotFormed);
             this.Controls.Add(this.labelFormationDate);
             this.Controls.Add(this.labelNoDiagnostics);

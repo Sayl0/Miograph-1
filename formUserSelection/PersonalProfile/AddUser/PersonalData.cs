@@ -46,7 +46,12 @@ namespace Miograph.formUserSelection.PersonalProfile.AddUser
 
         private void buttonSave_Click(object sender, EventArgs e)
         {
-            
+
+            var frm = new AnamnesisDiagnosis();
+            frm.Location = this.Location;
+            frm.StartPosition = FormStartPosition.Manual;
+            frm.FormClosing += delegate { this.Show(); };
+            frm.Show();
             this.Close();
         }
 

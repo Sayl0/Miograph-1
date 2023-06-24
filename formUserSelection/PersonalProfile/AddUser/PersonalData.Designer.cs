@@ -220,7 +220,7 @@
             // 
             this.labelPersonalData.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelPersonalData.AutoSize = true;
-            this.labelPersonalData.Font = new System.Drawing.Font("Roboto", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelPersonalData.Font = new System.Drawing.Font("Roboto Medium", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelPersonalData.Location = new System.Drawing.Point(71, 81);
             this.labelPersonalData.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.labelPersonalData.Name = "labelPersonalData";

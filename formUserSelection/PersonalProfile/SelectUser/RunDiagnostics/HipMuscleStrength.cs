@@ -17,7 +17,7 @@ namespace Miograph.formUserSelection.PersonalProfile.SelectUser.RunDiagnostics
             InitializeComponent();
         }
 
-        private void ExitButton_Click(object sender, EventArgs e)
+        private void buttonCancel_Click(object sender, EventArgs e)
         {
             this.Close();
         }

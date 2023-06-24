@@ -28,38 +28,100 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.ExitButton = new System.Windows.Forms.Button();
+            this.buttonCancel = new System.Windows.Forms.Button();
+            this.ankleSettingsBox = new System.Windows.Forms.PictureBox();
+            this.kneeSettingsBox = new System.Windows.Forms.PictureBox();
+            this.modeText = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.ankleSettingsBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kneeSettingsBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // ExitButton
+            // buttonCancel
             // 
-            this.ExitButton.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.ExitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ExitButton.Location = new System.Drawing.Point(223, 317);
-            this.ExitButton.Margin = new System.Windows.Forms.Padding(2);
-            this.ExitButton.Name = "ExitButton";
-            this.ExitButton.Size = new System.Drawing.Size(375, 60);
-            this.ExitButton.TabIndex = 9;
-            this.ExitButton.Text = "Выход";
-            this.ExitButton.UseVisualStyleBackColor = true;
-            this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
+            this.buttonCancel.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.buttonCancel.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonCancel.Location = new System.Drawing.Point(165, 576);
+            this.buttonCancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonCancel.Name = "buttonCancel";
+            this.buttonCancel.Size = new System.Drawing.Size(315, 72);
+            this.buttonCancel.TabIndex = 9;
+            this.buttonCancel.Text = "Отмена";
+            this.buttonCancel.UseVisualStyleBackColor = true;
+            this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
+            // 
+            // ankleSettingsBox
+            // 
+            this.ankleSettingsBox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.ankleSettingsBox.Location = new System.Drawing.Point(793, 352);
+            this.ankleSettingsBox.Margin = new System.Windows.Forms.Padding(2);
+            this.ankleSettingsBox.Name = "ankleSettingsBox";
+            this.ankleSettingsBox.Size = new System.Drawing.Size(90, 98);
+            this.ankleSettingsBox.TabIndex = 31;
+            this.ankleSettingsBox.TabStop = false;
+            // 
+            // kneeSettingsBox
+            // 
+            this.kneeSettingsBox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.kneeSettingsBox.Location = new System.Drawing.Point(793, 236);
+            this.kneeSettingsBox.Margin = new System.Windows.Forms.Padding(2);
+            this.kneeSettingsBox.Name = "kneeSettingsBox";
+            this.kneeSettingsBox.Size = new System.Drawing.Size(90, 98);
+            this.kneeSettingsBox.TabIndex = 30;
+            this.kneeSettingsBox.TabStop = false;
+            // 
+            // modeText
+            // 
+            this.modeText.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.modeText.Font = new System.Drawing.Font("Roboto Medium", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.modeText.Location = new System.Drawing.Point(68, 80);
+            this.modeText.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.modeText.Name = "modeText";
+            this.modeText.Size = new System.Drawing.Size(364, 32);
+            this.modeText.TabIndex = 29;
+            this.modeText.Text = "Диагностика сил машц бедра";
+            this.modeText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox1.Location = new System.Drawing.Point(73, 150);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(548, 378);
+            this.pictureBox1.TabIndex = 27;
+            this.pictureBox1.TabStop = false;
             // 
             // HipMuscleStrength
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.ExitButton);
+            this.ClientSize = new System.Drawing.Size(951, 707);
+            this.Controls.Add(this.ankleSettingsBox);
+            this.Controls.Add(this.kneeSettingsBox);
+            this.Controls.Add(this.modeText);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.buttonCancel);
+            this.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.Name = "HipMuscleStrength";
             this.Text = "HipMuscleStrength";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            ((System.ComponentModel.ISupportInitialize)(this.ankleSettingsBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kneeSettingsBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button ExitButton;
+        private System.Windows.Forms.Button buttonCancel;
+        private System.Windows.Forms.PictureBox ankleSettingsBox;
+        private System.Windows.Forms.PictureBox kneeSettingsBox;
+        private System.Windows.Forms.Label modeText;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
