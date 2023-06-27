@@ -19,7 +19,7 @@ namespace Miograph
 
         private void UserSelection_Load(object sender, EventArgs e)
         {
-
+            DataAccess.InitializeDatabase();
         }
 
         private void buttonSignUp_Click(object sender, EventArgs e)
