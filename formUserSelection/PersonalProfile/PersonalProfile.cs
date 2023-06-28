@@ -45,5 +45,10 @@ namespace Miograph
             frm.Show();
             this.Hide();
         }
+
+        private void PersonalProfile_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

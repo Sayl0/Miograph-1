@@ -12,6 +12,8 @@ namespace Miograph
 {
     public partial class UserSelection : Form
     {
+        private DataAccess db = new DataAccess();
+
         public UserSelection()
         {
             InitializeComponent();
@@ -19,7 +21,7 @@ namespace Miograph
 
         private void UserSelection_Load(object sender, EventArgs e)
         {
-            DataAccess.InitializeDatabase();
+
         }
 
         private void buttonSignUp_Click(object sender, EventArgs e)
@@ -33,13 +35,23 @@ namespace Miograph
         }
         private void buttonLogIn_Click(object sender, EventArgs e)
         {
-            var frm = new PersonalProfile();
-            frm.Location = this.Location;
-            frm.StartPosition = FormStartPosition.Manual;
-            frm.FormClosing += delegate { this.Show(); };
-            frm.Show();
-            this.Hide();
-
+            if (!string.IsNullOrEmpty(textBoxLogin.Text) && !string.IsNullOrEmpty(textBoxPassword.Text))
+            {
+                var res = db.LoginUser(textBoxLogin.Text, textBoxPassword.Text);
+                if (res != null)
+                {
+                    var frm = new PersonalProfile();
+                    frm.Location = this.Location;
+                    frm.StartPosition = FormStartPosition.Manual;
+                    frm.FormClosing += delegate { this.Show(); };
+                    frm.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Такого пользователя нет или пароль неверный!");   
+                }
+            }
         }
 
         private void buttonCancel_Click(object sender, EventArgs e)
@@ -47,6 +59,14 @@ namespace Miograph
             Close();
         }
 
-        
+        private void textBoxLogin_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxPassword_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
