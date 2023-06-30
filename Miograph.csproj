@@ -179,6 +179,7 @@
     <Compile Include="formUserSelection\PersonalProfile\PersonalProfile.Designer.cs">
       <DependentUpon>PersonalProfile.cs</DependentUpon>
     </Compile>
+    <Compile Include="PatientModel.cs" />
     <Compile Include="PHTextBox.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -286,6 +287,7 @@
       <DependentUpon>UserSelection.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\PatientCard.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
