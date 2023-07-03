@@ -28,8 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.signalCalibrationBox = new System.Windows.Forms.PictureBox();
-            this.kneeSettingsBox = new System.Windows.Forms.PictureBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ActiveMode));
             this.stepBox = new System.Windows.Forms.TextBox();
             this.timeBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -37,34 +36,16 @@
             this.modeText = new System.Windows.Forms.Label();
             this.startButton = new System.Windows.Forms.Button();
             this.cancelButton = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.angleBox = new System.Windows.Forms.Label();
             this.maxPowerSettingsBox = new System.Windows.Forms.PictureBox();
+            this.signalCalibrationBox = new System.Windows.Forms.PictureBox();
+            this.kneeSettingsBox = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.maxPowerSettingsBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.signalCalibrationBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kneeSettingsBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.maxPowerSettingsBox)).BeginInit();
             this.SuspendLayout();
-            // 
-            // signalCalibrationBox
-            // 
-            this.signalCalibrationBox.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.signalCalibrationBox.Location = new System.Drawing.Point(691, 288);
-            this.signalCalibrationBox.Margin = new System.Windows.Forms.Padding(2);
-            this.signalCalibrationBox.Name = "signalCalibrationBox";
-            this.signalCalibrationBox.Size = new System.Drawing.Size(90, 98);
-            this.signalCalibrationBox.TabIndex = 42;
-            this.signalCalibrationBox.TabStop = false;
-            // 
-            // kneeSettingsBox
-            // 
-            this.kneeSettingsBox.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.kneeSettingsBox.Location = new System.Drawing.Point(691, 175);
-            this.kneeSettingsBox.Margin = new System.Windows.Forms.Padding(2);
-            this.kneeSettingsBox.Name = "kneeSettingsBox";
-            this.kneeSettingsBox.Size = new System.Drawing.Size(90, 98);
-            this.kneeSettingsBox.TabIndex = 40;
-            this.kneeSettingsBox.TabStop = false;
             // 
             // stepBox
             // 
@@ -148,21 +129,11 @@
             this.cancelButton.UseVisualStyleBackColor = true;
             this.cancelButton.Click += new System.EventHandler(this.cancelButton_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox1.Location = new System.Drawing.Point(13, 96);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(545, 374);
-            this.pictureBox1.TabIndex = 29;
-            this.pictureBox1.TabStop = false;
-            // 
             // angleBox
             // 
             this.angleBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.angleBox.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.angleBox.Location = new System.Drawing.Point(567, 201);
+            this.angleBox.Location = new System.Drawing.Point(604, 197);
             this.angleBox.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.angleBox.Name = "angleBox";
             this.angleBox.Size = new System.Drawing.Size(60, 32);
@@ -174,12 +145,53 @@
             // maxPowerSettingsBox
             // 
             this.maxPowerSettingsBox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.maxPowerSettingsBox.Image = global::Miograph.Properties.Resources.calibre_03;
             this.maxPowerSettingsBox.Location = new System.Drawing.Point(691, 402);
             this.maxPowerSettingsBox.Margin = new System.Windows.Forms.Padding(2);
             this.maxPowerSettingsBox.Name = "maxPowerSettingsBox";
-            this.maxPowerSettingsBox.Size = new System.Drawing.Size(90, 98);
+            this.maxPowerSettingsBox.Size = new System.Drawing.Size(100, 90);
+            this.maxPowerSettingsBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.maxPowerSettingsBox.TabIndex = 44;
             this.maxPowerSettingsBox.TabStop = false;
+            // 
+            // signalCalibrationBox
+            // 
+            this.signalCalibrationBox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.signalCalibrationBox.Image = global::Miograph.Properties.Resources.calibre_02;
+            this.signalCalibrationBox.Location = new System.Drawing.Point(691, 288);
+            this.signalCalibrationBox.Margin = new System.Windows.Forms.Padding(2);
+            this.signalCalibrationBox.Name = "signalCalibrationBox";
+            this.signalCalibrationBox.Size = new System.Drawing.Size(100, 90);
+            this.signalCalibrationBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.signalCalibrationBox.TabIndex = 42;
+            this.signalCalibrationBox.TabStop = false;
+            // 
+            // kneeSettingsBox
+            // 
+            this.kneeSettingsBox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.kneeSettingsBox.Image = global::Miograph.Properties.Resources.passive_angle;
+            this.kneeSettingsBox.Location = new System.Drawing.Point(691, 175);
+            this.kneeSettingsBox.Margin = new System.Windows.Forms.Padding(2);
+            this.kneeSettingsBox.Name = "kneeSettingsBox";
+            this.kneeSettingsBox.Size = new System.Drawing.Size(100, 90);
+            this.kneeSettingsBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.kneeSettingsBox.TabIndex = 40;
+            this.kneeSettingsBox.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox1.ErrorImage = null;
+            this.pictureBox1.Image = global::Miograph.Properties.Resources.detail_00050;
+            this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
+            this.pictureBox1.Location = new System.Drawing.Point(13, 96);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(587, 374);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 29;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.WaitOnLoad = true;
             // 
             // ActiveMode
             // 
@@ -203,10 +215,10 @@
             this.Name = "ActiveMode";
             this.Text = "ActiveMode";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            ((System.ComponentModel.ISupportInitialize)(this.maxPowerSettingsBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.signalCalibrationBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.kneeSettingsBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.maxPowerSettingsBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

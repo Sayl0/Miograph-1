@@ -47,11 +47,10 @@
             // 
             this.buttonSignUp.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.buttonSignUp.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonSignUp.Location = new System.Drawing.Point(423, 560);
-            this.buttonSignUp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonSignUp.Location = new System.Drawing.Point(317, 455);
             this.buttonSignUp.Name = "buttonSignUp";
-            this.buttonSignUp.Size = new System.Drawing.Size(372, 68);
-            this.buttonSignUp.TabIndex = 13;
+            this.buttonSignUp.Size = new System.Drawing.Size(279, 55);
+            this.buttonSignUp.TabIndex = 7;
             this.buttonSignUp.Text = "Зарегистрироваться";
             this.buttonSignUp.UseVisualStyleBackColor = true;
             this.buttonSignUp.Click += new System.EventHandler(this.buttonSignUp_Click);
@@ -60,11 +59,10 @@
             // 
             this.textBoxPassword.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBoxPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxPassword.Location = new System.Drawing.Point(529, 368);
-            this.textBoxPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxPassword.Location = new System.Drawing.Point(397, 299);
             this.textBoxPassword.Name = "textBoxPassword";
-            this.textBoxPassword.Size = new System.Drawing.Size(247, 34);
-            this.textBoxPassword.TabIndex = 11;
+            this.textBoxPassword.Size = new System.Drawing.Size(186, 29);
+            this.textBoxPassword.TabIndex = 3;
             this.textBoxPassword.UseSystemPasswordChar = true;
             this.textBoxPassword.TextChanged += new System.EventHandler(this.textBoxPassword_TextChanged);
             // 
@@ -73,10 +71,9 @@
             this.labelPassword.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelPassword.AutoSize = true;
             this.labelPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelPassword.Location = new System.Drawing.Point(400, 372);
-            this.labelPassword.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelPassword.Location = new System.Drawing.Point(300, 302);
             this.labelPassword.Name = "labelPassword";
-            this.labelPassword.Size = new System.Drawing.Size(105, 29);
+            this.labelPassword.Size = new System.Drawing.Size(81, 24);
             this.labelPassword.TabIndex = 10;
             this.labelPassword.Text = "Пароль:";
             // 
@@ -84,21 +81,19 @@
             // 
             this.textBoxLogin.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBoxLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxLogin.Location = new System.Drawing.Point(529, 308);
-            this.textBoxLogin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxLogin.Location = new System.Drawing.Point(397, 250);
             this.textBoxLogin.Name = "textBoxLogin";
-            this.textBoxLogin.Size = new System.Drawing.Size(247, 34);
-            this.textBoxLogin.TabIndex = 9;
+            this.textBoxLogin.Size = new System.Drawing.Size(186, 29);
+            this.textBoxLogin.TabIndex = 2;
             this.textBoxLogin.TextChanged += new System.EventHandler(this.textBoxLogin_TextChanged);
             // 
             // buttonCancel
             // 
             this.buttonCancel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.buttonCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonCancel.Location = new System.Drawing.Point(423, 663);
-            this.buttonCancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonCancel.Location = new System.Drawing.Point(317, 539);
             this.buttonCancel.Name = "buttonCancel";
-            this.buttonCancel.Size = new System.Drawing.Size(372, 68);
+            this.buttonCancel.Size = new System.Drawing.Size(279, 55);
             this.buttonCancel.TabIndex = 8;
             this.buttonCancel.Text = "Отмена";
             this.buttonCancel.UseVisualStyleBackColor = true;
@@ -109,10 +104,9 @@
             this.labelLogin.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelLogin.AutoSize = true;
             this.labelLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelLogin.Location = new System.Drawing.Point(417, 311);
-            this.labelLogin.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelLogin.Location = new System.Drawing.Point(313, 253);
             this.labelLogin.Name = "labelLogin";
-            this.labelLogin.Size = new System.Drawing.Size(89, 29);
+            this.labelLogin.Size = new System.Drawing.Size(69, 24);
             this.labelLogin.TabIndex = 7;
             this.labelLogin.Text = "Логин:";
             // 
@@ -120,11 +114,10 @@
             // 
             this.textBoxPasswordConfirm.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBoxPasswordConfirm.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxPasswordConfirm.Location = new System.Drawing.Point(529, 430);
-            this.textBoxPasswordConfirm.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxPasswordConfirm.Location = new System.Drawing.Point(397, 349);
             this.textBoxPasswordConfirm.Name = "textBoxPasswordConfirm";
-            this.textBoxPasswordConfirm.Size = new System.Drawing.Size(247, 34);
-            this.textBoxPasswordConfirm.TabIndex = 15;
+            this.textBoxPasswordConfirm.Size = new System.Drawing.Size(186, 29);
+            this.textBoxPasswordConfirm.TabIndex = 4;
             this.textBoxPasswordConfirm.UseSystemPasswordChar = true;
             this.textBoxPasswordConfirm.TextChanged += new System.EventHandler(this.textBoxPasswordConfirm_TextChanged);
             // 
@@ -133,10 +126,9 @@
             this.labelConfirm.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelConfirm.AutoSize = true;
             this.labelConfirm.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelConfirm.Location = new System.Drawing.Point(243, 438);
-            this.labelConfirm.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelConfirm.Location = new System.Drawing.Point(182, 356);
             this.labelConfirm.Name = "labelConfirm";
-            this.labelConfirm.Size = new System.Drawing.Size(262, 29);
+            this.labelConfirm.Size = new System.Drawing.Size(207, 24);
             this.labelConfirm.TabIndex = 14;
             this.labelConfirm.Text = "Подтвердите пароль:";
             // 
@@ -144,11 +136,10 @@
             // 
             this.textBoxFullName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBoxFullName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxFullName.Location = new System.Drawing.Point(529, 246);
-            this.textBoxFullName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxFullName.Location = new System.Drawing.Point(397, 200);
             this.textBoxFullName.Name = "textBoxFullName";
-            this.textBoxFullName.Size = new System.Drawing.Size(247, 34);
-            this.textBoxFullName.TabIndex = 17;
+            this.textBoxFullName.Size = new System.Drawing.Size(186, 29);
+            this.textBoxFullName.TabIndex = 1;
             this.textBoxFullName.TextChanged += new System.EventHandler(this.textBoxFullName_TextChanged);
             // 
             // labelFullName
@@ -156,10 +147,9 @@
             this.labelFullName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelFullName.AutoSize = true;
             this.labelFullName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelFullName.Location = new System.Drawing.Point(201, 250);
-            this.labelFullName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelFullName.Location = new System.Drawing.Point(151, 203);
             this.labelFullName.Name = "labelFullName";
-            this.labelFullName.Size = new System.Drawing.Size(305, 29);
+            this.labelFullName.Size = new System.Drawing.Size(234, 24);
             this.labelFullName.TabIndex = 16;
             this.labelFullName.Text = "Фамилия, имя, отчество:";
             // 
@@ -168,11 +158,10 @@
             this.radioButtonDoctor.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.radioButtonDoctor.AutoSize = true;
             this.radioButtonDoctor.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.radioButtonDoctor.Location = new System.Drawing.Point(885, 245);
-            this.radioButtonDoctor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButtonDoctor.Location = new System.Drawing.Point(664, 199);
             this.radioButtonDoctor.Name = "radioButtonDoctor";
-            this.radioButtonDoctor.Size = new System.Drawing.Size(91, 33);
-            this.radioButtonDoctor.TabIndex = 18;
+            this.radioButtonDoctor.Size = new System.Drawing.Size(71, 28);
+            this.radioButtonDoctor.TabIndex = 5;
             this.radioButtonDoctor.TabStop = true;
             this.radioButtonDoctor.Text = "Врач";
             this.radioButtonDoctor.UseVisualStyleBackColor = true;
@@ -183,11 +172,10 @@
             this.radioButtonOperator.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.radioButtonOperator.AutoSize = true;
             this.radioButtonOperator.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.radioButtonOperator.Location = new System.Drawing.Point(885, 286);
-            this.radioButtonOperator.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButtonOperator.Location = new System.Drawing.Point(664, 232);
             this.radioButtonOperator.Name = "radioButtonOperator";
-            this.radioButtonOperator.Size = new System.Drawing.Size(149, 33);
-            this.radioButtonOperator.TabIndex = 19;
+            this.radioButtonOperator.Size = new System.Drawing.Size(118, 28);
+            this.radioButtonOperator.TabIndex = 6;
             this.radioButtonOperator.TabStop = true;
             this.radioButtonOperator.Text = "Оператор";
             this.radioButtonOperator.UseVisualStyleBackColor = true;
@@ -198,18 +186,17 @@
             this.labelRegistrationForm.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.labelRegistrationForm.AutoSize = true;
             this.labelRegistrationForm.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelRegistrationForm.Location = new System.Drawing.Point(511, 158);
-            this.labelRegistrationForm.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelRegistrationForm.Location = new System.Drawing.Point(383, 128);
             this.labelRegistrationForm.Name = "labelRegistrationForm";
-            this.labelRegistrationForm.Size = new System.Drawing.Size(334, 36);
+            this.labelRegistrationForm.Size = new System.Drawing.Size(265, 29);
             this.labelRegistrationForm.TabIndex = 20;
             this.labelRegistrationForm.Text = "Форма регистрации";
             // 
             // RegistrationForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1187, 863);
+            this.ClientSize = new System.Drawing.Size(890, 701);
             this.Controls.Add(this.labelRegistrationForm);
             this.Controls.Add(this.radioButtonOperator);
             this.Controls.Add(this.radioButtonDoctor);
@@ -224,7 +211,6 @@
             this.Controls.Add(this.buttonCancel);
             this.Controls.Add(this.labelLogin);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "RegistrationForm";
             this.Text = "RegistrationForm";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

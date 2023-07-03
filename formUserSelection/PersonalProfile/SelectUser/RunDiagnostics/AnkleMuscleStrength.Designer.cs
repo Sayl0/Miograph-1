@@ -45,7 +45,7 @@
             this.buttonSave.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.buttonSave.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonSave.Location = new System.Drawing.Point(611, 534);
-            this.buttonSave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonSave.Margin = new System.Windows.Forms.Padding(4);
             this.buttonSave.Name = "buttonSave";
             this.buttonSave.Size = new System.Drawing.Size(269, 65);
             this.buttonSave.TabIndex = 9;
@@ -57,7 +57,7 @@
             // 
             this.stepBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.stepBox.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.stepBox.Location = new System.Drawing.Point(743, 164);
+            this.stepBox.Location = new System.Drawing.Point(748, 253);
             this.stepBox.Margin = new System.Windows.Forms.Padding(2);
             this.stepBox.Name = "stepBox";
             this.stepBox.Size = new System.Drawing.Size(90, 30);
@@ -67,7 +67,7 @@
             // 
             this.timeBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.timeBox.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.timeBox.Location = new System.Drawing.Point(743, 130);
+            this.timeBox.Location = new System.Drawing.Point(748, 219);
             this.timeBox.Margin = new System.Windows.Forms.Padding(2);
             this.timeBox.Name = "timeBox";
             this.timeBox.Size = new System.Drawing.Size(90, 30);
@@ -77,7 +77,7 @@
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(646, 162);
+            this.label2.Location = new System.Drawing.Point(651, 251);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(97, 32);
@@ -89,7 +89,7 @@
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(646, 128);
+            this.label1.Location = new System.Drawing.Point(651, 217);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(85, 32);
@@ -139,10 +139,12 @@
             // pictureBox1
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox1.Location = new System.Drawing.Point(65, 131);
+            this.pictureBox1.Image = global::Miograph.Properties.Resources.detail_00050;
+            this.pictureBox1.Location = new System.Drawing.Point(65, 163);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(545, 374);
+            this.pictureBox1.Size = new System.Drawing.Size(582, 342);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 38;
             this.pictureBox1.TabStop = false;
             // 

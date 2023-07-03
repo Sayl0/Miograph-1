@@ -45,7 +45,7 @@
             // 
             this.speedBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.speedBox.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.speedBox.Location = new System.Drawing.Point(724, 188);
+            this.speedBox.Location = new System.Drawing.Point(725, 217);
             this.speedBox.Margin = new System.Windows.Forms.Padding(2);
             this.speedBox.Name = "speedBox";
             this.speedBox.Size = new System.Drawing.Size(76, 30);
@@ -55,7 +55,7 @@
             // 
             this.rangeBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.rangeBox.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.rangeBox.Location = new System.Drawing.Point(724, 149);
+            this.rangeBox.Location = new System.Drawing.Point(725, 178);
             this.rangeBox.Margin = new System.Windows.Forms.Padding(2);
             this.rangeBox.Name = "rangeBox";
             this.rangeBox.Size = new System.Drawing.Size(76, 30);
@@ -65,7 +65,7 @@
             // 
             this.timeBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.timeBox.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.timeBox.Location = new System.Drawing.Point(724, 108);
+            this.timeBox.Location = new System.Drawing.Point(725, 137);
             this.timeBox.Margin = new System.Windows.Forms.Padding(2);
             this.timeBox.Name = "timeBox";
             this.timeBox.Size = new System.Drawing.Size(76, 30);
@@ -75,7 +75,7 @@
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(589, 186);
+            this.label3.Location = new System.Drawing.Point(590, 215);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(120, 32);
@@ -87,7 +87,7 @@
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(589, 147);
+            this.label2.Location = new System.Drawing.Point(590, 176);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(120, 32);
@@ -99,7 +99,7 @@
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(589, 106);
+            this.label1.Location = new System.Drawing.Point(590, 135);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(120, 32);
@@ -111,7 +111,7 @@
             // 
             this.modeText.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.modeText.Font = new System.Drawing.Font("Roboto Medium", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.modeText.Location = new System.Drawing.Point(11, 34);
+            this.modeText.Location = new System.Drawing.Point(34, 74);
             this.modeText.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.modeText.Name = "modeText";
             this.modeText.Size = new System.Drawing.Size(418, 32);
@@ -148,10 +148,12 @@
             // pictureBox1
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox1.Location = new System.Drawing.Point(39, 108);
+            this.pictureBox1.Image = global::Miograph.Properties.Resources.detail_00050;
+            this.pictureBox1.Location = new System.Drawing.Point(39, 137);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(512, 371);
+            this.pictureBox1.Size = new System.Drawing.Size(546, 342);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 13;
             this.pictureBox1.TabStop = false;
             // 

@@ -12,6 +12,8 @@ namespace Miograph.formUserSelection.PersonalProfile.SelectUser.RunDiagnostics
 {
     public partial class FootMobility : Form
     {
+        bool flag = false;
+
         public FootMobility()
         {
             InitializeComponent();
@@ -25,7 +27,16 @@ namespace Miograph.formUserSelection.PersonalProfile.SelectUser.RunDiagnostics
 
         private void buttonStarted_Click(object sender, EventArgs e)
         {
-            this.Close();
+            if (flag == false)
+            {
+                buttonStarted.Text = "Пауза";
+                flag = true;
+            }
+            else
+            {
+                buttonStarted.Text = "Снять с паузы";
+                flag = false;
+            }
         }
 
         private void buttonCancel_Click(object sender, EventArgs e)

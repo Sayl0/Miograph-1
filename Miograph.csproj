@@ -304,6 +304,219 @@
   <ItemGroup>
     <Folder Include="Resources\" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00050.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\calibre_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\active_passive_angle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\ankle_joint_angles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\calibre_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\calibre_02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\calibre_04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\calibre_05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\calibre_06.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\diag_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\diag_02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\hf_statistics.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\knee_angles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\knee_statistics.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\leg_muscles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\leg_muscles_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\passive_angle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\spectrum_measurement.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\strength_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\strength_02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\strength_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\strength_04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00003.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00004.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00005.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00006.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00007.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00008.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00009.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00010.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00011.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00012.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00013.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00014.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00015.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00016.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00017.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00018.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00019.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00020.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00021.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00022.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00023.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00024.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00025.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00026.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00027.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00028.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00029.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00030.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00031.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00032.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00033.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00034.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00035.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00036.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00037.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00038.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00039.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00040.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00041.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00042.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00043.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00044.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00045.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00046.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00047.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00048.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00049.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

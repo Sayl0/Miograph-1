@@ -12,6 +12,8 @@ namespace Miograph.formUserSelection.PersonalProfile.SelectUser.RunDiagnostics
 {
     public partial class KneeMobility : Form
     {
+        bool flag = false;
+
         public KneeMobility()
         {
             InitializeComponent();
@@ -41,7 +43,16 @@ namespace Miograph.formUserSelection.PersonalProfile.SelectUser.RunDiagnostics
         // Остановка
         private void buttonStop_Click(object sender, EventArgs e)
         {
-
+            if (flag == false)
+            {
+                buttonStop.Text = "Остаовка";
+                flag = true;
+            }
+            else
+            {
+                buttonStop.Text = "Запуск";
+                flag = false;
+            }
         }
 
         // Разгибание

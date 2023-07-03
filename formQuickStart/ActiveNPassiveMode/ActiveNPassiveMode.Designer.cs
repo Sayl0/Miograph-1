@@ -163,10 +163,12 @@
             // pictureBox1
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox1.Location = new System.Drawing.Point(9, 94);
+            this.pictureBox1.Image = global::Miograph.Properties.Resources.detail_00050;
+            this.pictureBox1.Location = new System.Drawing.Point(9, 132);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(548, 378);
+            this.pictureBox1.Size = new System.Drawing.Size(594, 340);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 13;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -185,10 +187,12 @@
             // kneeSettingsBox
             // 
             this.kneeSettingsBox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.kneeSettingsBox.Image = global::Miograph.Properties.Resources.calibre_01;
             this.kneeSettingsBox.Location = new System.Drawing.Point(729, 180);
             this.kneeSettingsBox.Margin = new System.Windows.Forms.Padding(2);
             this.kneeSettingsBox.Name = "kneeSettingsBox";
-            this.kneeSettingsBox.Size = new System.Drawing.Size(90, 98);
+            this.kneeSettingsBox.Size = new System.Drawing.Size(100, 90);
+            this.kneeSettingsBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.kneeSettingsBox.TabIndex = 24;
             this.kneeSettingsBox.TabStop = false;
             this.kneeSettingsBox.Click += new System.EventHandler(this.kneeSettingsBox_Click);
@@ -196,10 +200,12 @@
             // ankleSettingsBox
             // 
             this.ankleSettingsBox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.ankleSettingsBox.Image = global::Miograph.Properties.Resources.calibre_06;
             this.ankleSettingsBox.Location = new System.Drawing.Point(729, 296);
             this.ankleSettingsBox.Margin = new System.Windows.Forms.Padding(2);
             this.ankleSettingsBox.Name = "ankleSettingsBox";
-            this.ankleSettingsBox.Size = new System.Drawing.Size(90, 98);
+            this.ankleSettingsBox.Size = new System.Drawing.Size(100, 90);
+            this.ankleSettingsBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ankleSettingsBox.TabIndex = 26;
             this.ankleSettingsBox.TabStop = false;
             this.ankleSettingsBox.Click += new System.EventHandler(this.ankleSettingsBox_Click);

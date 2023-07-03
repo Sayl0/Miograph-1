@@ -47,10 +47,12 @@
             // pictureBox1
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox1.Location = new System.Drawing.Point(9, 98);
+            this.pictureBox1.Image = global::Miograph.Properties.Resources.detail_00050;
+            this.pictureBox1.Location = new System.Drawing.Point(9, 115);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(521, 341);
+            this.pictureBox1.Size = new System.Drawing.Size(548, 324);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -180,10 +182,12 @@
             // settingsBox
             // 
             this.settingsBox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.settingsBox.Image = global::Miograph.Properties.Resources.calibre_01;
             this.settingsBox.Location = new System.Drawing.Point(671, 236);
             this.settingsBox.Margin = new System.Windows.Forms.Padding(2);
             this.settingsBox.Name = "settingsBox";
-            this.settingsBox.Size = new System.Drawing.Size(90, 98);
+            this.settingsBox.Size = new System.Drawing.Size(100, 90);
+            this.settingsBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.settingsBox.TabIndex = 12;
             this.settingsBox.TabStop = false;
             this.settingsBox.Click += new System.EventHandler(this.settingsBox_Click);

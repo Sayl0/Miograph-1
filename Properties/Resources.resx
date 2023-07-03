@@ -117,4 +117,227 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="strength_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\images\strength_03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="strength_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\images\strength_04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="diag_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\images\diag_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="strength_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\images\strength_02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="passive_angle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\images\passive_angle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leg_muscles_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\images\leg_muscles_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leg_muscles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\images\leg_muscles.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calibre_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\images\calibre_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calibre_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\images\calibre_05.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calibre_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\images\calibre_04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calibre_031" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\images\calibre_03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="strength_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\images\strength_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hf_statistics" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\images\hf_statistics.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calibre_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\images\calibre_02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calibre_06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\images\calibre_06.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="knee_statistics" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\images\knee_statistics.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00050" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00050.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="active_passive_angle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\images\active_passive_angle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calibre_03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\images\calibre_03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="knee_angles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\images\knee_angles.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="diag_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\images\diag_02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ankle_joint_angles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\images\ankle_joint_angles.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spectrum_measurement" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\images\spectrum_measurement.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_000011" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00002" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00002.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00003" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00003.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00004" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00004.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00005" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00005.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00006" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00006.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00007" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00007.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00008" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00008.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00009" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00009.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00010" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00010.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00011" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00011.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00012" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00012.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00013" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00013.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00014" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00014.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00015" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00015.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00016" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00016.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00017" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00017.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00018" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00018.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00019" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00019.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00020" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00020.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00021" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00021.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00022" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00022.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00023" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00023.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00024" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00024.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00025" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00025.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00026" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00026.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00027" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00027.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00028" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00028.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00029" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00029.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00030" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00030.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00031" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00031.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00032" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00032.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00033" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00033.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00034" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00034.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00035" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00035.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00036" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00036.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00037" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00037.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00038" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00038.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00039" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00039.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00040" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00040.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00041" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00041.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00042" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00042.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00043" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00043.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00044" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00044.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00045" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00045.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00046" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00046.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00047" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00047.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00048" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00048.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_00049" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00049.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_000501" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ui\leg_img_full_size\main_img\detail_00050.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

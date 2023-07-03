@@ -30,7 +30,16 @@ namespace Miograph
 
         private void startButton_Click(object sender, EventArgs e)
         {
-           
+            if (flag == false)
+            {
+                startButton.Text = "Пауза";
+                flag = true;
+            }
+            else
+            {
+                startButton.Text = "Снять с паузы";
+                flag = false;
+            }
         }
     }
 }

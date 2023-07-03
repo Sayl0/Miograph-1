@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/passive_angle.png</file>
+        <file>images/active_passive_angle.png</file>
+        <file>images/ankle_joint_angles.png</file>
+        <file>images/hf_statistics.png</file>
+        <file>images/knee_angles.png</file>
+        <file>images/knee_statistics.png</file>
+        <file>images/leg_muscles.png</file>
+        <file>images/leg_muscles_2.png</file>
+        <file>images/calibre_01.png</file>
+        <file>images/calibre_02.png</file>
+        <file>images/calibre_03.png</file>
+        <file>images/calibre_04.png</file>
+        <file>images/calibre_05.png</file>
+        <file>images/strength_01.png</file>
+        <file>images/strength_02.png</file>
+        <file>images/strength_03.png</file>
+        <file>images/strength_04.png</file>
+        <file>images/spectrum_measurement.png</file>
+        <file>images/diag_01.png</file>
+        <file>images/diag_02.png</file>
+        <file>images/calibre_06.png</file>
+    </qresource>
+</RCC>
