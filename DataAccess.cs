@@ -18,22 +18,6 @@ namespace Miograph
             connectionString = $"Data Source=miograph.db";
         }
 
-        /*
-        public void CreateTable(string tableName, string columns)
-        {
-            // метод для создания таблицы с заданным именем и столбцами
-            using (SqliteConnection connection = new SqliteConnection(connectionString)) // создаем подключение
-            {
-                connection.Open(); // открываем подключение
-                string sql = $"CREATE TABLE {tableName} ({columns})"; // формируем SQL-запрос для создания таблицы
-                using (SqliteCommand command = new SqliteCommand(sql, connection)) // создаем команду
-                {
-                    command.ExecuteNonQuery(); // выполняем команду
-                }
-            }
-        }
-        */
-
         public long RegistrEmployee(User user)
         {
             using (SQLiteConnection connection = new SQLiteConnection(connectionString))
