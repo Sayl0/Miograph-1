@@ -1,0 +1,585 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B7DE53A7-A6B4-4D5F-B2C6-EA437F2C1099}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Miograph</RootNamespace>
+    <AssemblyName>Miograph</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="PCLStorage, Version=1.0.2.0, Culture=neutral, PublicKeyToken=286fe515a2c35b64, processorArchitecture=MSIL">
+      <HintPath>packages\PCLStorage.1.0.2\lib\net45\PCLStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="PCLStorage.Abstractions, Version=1.0.2.0, Culture=neutral, PublicKeyToken=286fe515a2c35b64, processorArchitecture=MSIL">
+      <HintPath>packages\PCLStorage.1.0.2\lib\net45\PCLStorage.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Immutable, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Collections.Immutable.7.0.0\lib\net462\System.Collections.Immutable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.118.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.118.0\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.118.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>packages\System.Data.SQLite.EF6.1.0.118.0\lib\net46\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.118.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>packages\System.Data.SQLite.Linq.1.0.118.0\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataAccess.cs" />
+    <Compile Include="formQuickStart\ActiveMode\ActiveMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formQuickStart\ActiveMode\ActiveMode.Designer.cs">
+      <DependentUpon>ActiveMode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formQuickStart\ActiveNPassiveMode\ActiveNPassiveMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formQuickStart\ActiveNPassiveMode\ActiveNPassiveMode.Designer.cs">
+      <DependentUpon>ActiveNPassiveMode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formQuickStart\PassiveMode\PassiveModeSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formQuickStart\PassiveMode\PassiveModeSettings.Designer.cs">
+      <DependentUpon>PassiveModeSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formUserSelection\Operator\OperatorFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formUserSelection\Operator\OperatorFrom.Designer.cs">
+      <DependentUpon>OperatorFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\AddUser\AddUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\AddUser\AddUser.Designer.cs">
+      <DependentUpon>AddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\AddUser\AnamnesisDiagnosis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\AddUser\AnamnesisDiagnosis.Designer.cs">
+      <DependentUpon>AnamnesisDiagnosis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\AddUser\PersonalData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\AddUser\PersonalData.Designer.cs">
+      <DependentUpon>PersonalData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\CourseParameters\CourseParameters.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\CourseParameters\CourseParameters.Designer.cs">
+      <DependentUpon>CourseParameters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\GenerateExtract\Excerpt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\GenerateExtract\Excerpt.Designer.cs">
+      <DependentUpon>Excerpt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\GenerateExtract\InitialParameters\InitialParameters.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\GenerateExtract\InitialParameters\InitialParameters.Designer.cs">
+      <DependentUpon>InitialParameters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\GenerateExtract\Session\Session.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\GenerateExtract\Session\Session.Designer.cs">
+      <DependentUpon>Session.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\GenerateExtract\TargetParameters\TargetParameters.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\GenerateExtract\TargetParameters\TargetParameters.Designer.cs">
+      <DependentUpon>TargetParameters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\RunDiagnostics\AnkleMuscleStrength.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\RunDiagnostics\AnkleMuscleStrength.Designer.cs">
+      <DependentUpon>AnkleMuscleStrength.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\RunDiagnostics\FootMobility.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\RunDiagnostics\FootMobility.Designer.cs">
+      <DependentUpon>FootMobility.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\RunDiagnostics\HipMuscleStrength.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\RunDiagnostics\HipMuscleStrength.Designer.cs">
+      <DependentUpon>HipMuscleStrength.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\RunDiagnostics\KneeMobility.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\RunDiagnostics\KneeMobility.Designer.cs">
+      <DependentUpon>KneeMobility.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\RunDiagnostics\RunDiagnostic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\RunDiagnostics\RunDiagnostic.Designer.cs">
+      <DependentUpon>RunDiagnostic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomePage.Designer.cs">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formQuickStart\PassiveMode\PassiveMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formQuickStart\PassiveMode\PassiveMode.Designer.cs">
+      <DependentUpon>PassiveMode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formQuickStart\PassiveModeAnkle\PassiveModeAnkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formQuickStart\PassiveModeAnkle\PassiveModeAnkle.Designer.cs">
+      <DependentUpon>PassiveModeAnkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\PersonalProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\PersonalProfile.Designer.cs">
+      <DependentUpon>PersonalProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PatientModel.cs" />
+    <Compile Include="PHTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="formQuickStart\QuickStart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formQuickStart\QuickStart.Designer.cs">
+      <DependentUpon>QuickStart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="formUserSelection\RegistrarionForm\RegistrationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formUserSelection\RegistrarionForm\RegistrationForm.Designer.cs">
+      <DependentUpon>RegistrationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\SelectUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formUserSelection\PersonalProfile\SelectUser\SelectUser.Designer.cs">
+      <DependentUpon>SelectUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formUserManual\UserManual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formUserManual\UserManual.Designer.cs">
+      <DependentUpon>UserManual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formUserSelection\UserSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formUserSelection\UserSelection.Designer.cs">
+      <DependentUpon>UserSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserModel.cs" />
+    <EmbeddedResource Include="formQuickStart\ActiveMode\ActiveMode.resx">
+      <DependentUpon>ActiveMode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formQuickStart\ActiveNPassiveMode\ActiveNPassiveMode.resx">
+      <DependentUpon>ActiveNPassiveMode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formQuickStart\PassiveModeAnkle\PassiveModeAnkle.resx">
+      <DependentUpon>PassiveModeAnkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formQuickStart\PassiveMode\PassiveMode.resx">
+      <DependentUpon>PassiveMode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formQuickStart\PassiveMode\PassiveModeSettings.resx">
+      <DependentUpon>PassiveModeSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formUserSelection\Operator\OperatorFrom.resx">
+      <DependentUpon>OperatorFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formUserSelection\PersonalProfile\AddUser\AddUser.resx">
+      <DependentUpon>AddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formUserSelection\PersonalProfile\AddUser\AnamnesisDiagnosis.resx">
+      <DependentUpon>AnamnesisDiagnosis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formUserSelection\PersonalProfile\AddUser\PersonalData.resx">
+      <DependentUpon>PersonalData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formUserSelection\PersonalProfile\SelectUser\CourseParameters\CourseParameters.resx">
+      <DependentUpon>CourseParameters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formUserSelection\PersonalProfile\SelectUser\GenerateExtract\Excerpt.resx">
+      <DependentUpon>Excerpt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formUserSelection\PersonalProfile\SelectUser\GenerateExtract\InitialParameters\InitialParameters.resx">
+      <DependentUpon>InitialParameters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formUserSelection\PersonalProfile\SelectUser\GenerateExtract\Session\Session.resx">
+      <DependentUpon>Session.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formUserSelection\PersonalProfile\SelectUser\GenerateExtract\TargetParameters\TargetParameters.resx">
+      <DependentUpon>TargetParameters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formUserSelection\PersonalProfile\SelectUser\RunDiagnostics\AnkleMuscleStrength.resx">
+      <DependentUpon>AnkleMuscleStrength.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formUserSelection\PersonalProfile\SelectUser\RunDiagnostics\FootMobility.resx">
+      <DependentUpon>FootMobility.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formUserSelection\PersonalProfile\SelectUser\RunDiagnostics\HipMuscleStrength.resx">
+      <DependentUpon>HipMuscleStrength.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formUserSelection\PersonalProfile\SelectUser\RunDiagnostics\KneeMobility.resx">
+      <DependentUpon>KneeMobility.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formUserSelection\PersonalProfile\SelectUser\RunDiagnostics\RunDiagnostic.resx">
+      <DependentUpon>RunDiagnostic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomePage.resx">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formUserSelection\PersonalProfile\PersonalProfile.resx">
+      <DependentUpon>PersonalProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formQuickStart\QuickStart.resx">
+      <DependentUpon>QuickStart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="formUserSelection\RegistrarionForm\RegistrationForm.resx">
+      <DependentUpon>RegistrationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formUserSelection\PersonalProfile\SelectUser\SelectUser.resx">
+      <DependentUpon>SelectUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formUserManual\UserManual.resx">
+      <DependentUpon>UserManual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formUserSelection\UserSelection.resx">
+      <DependentUpon>UserSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\PatientCard.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00050.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\calibre_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\active_passive_angle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\ankle_joint_angles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\calibre_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\calibre_02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\calibre_04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\calibre_05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\calibre_06.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\diag_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\diag_02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\hf_statistics.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\knee_angles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\knee_statistics.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\leg_muscles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\leg_muscles_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\passive_angle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\spectrum_measurement.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\strength_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\strength_02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\strength_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\images\strength_04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00003.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00004.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00005.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00006.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00007.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00008.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00009.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00010.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00011.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00012.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00013.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00014.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00015.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00016.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00017.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00018.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00019.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00020.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00021.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00022.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00023.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00024.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00025.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00026.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00027.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00028.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00029.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00030.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00031.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00032.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00033.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00034.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00035.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00036.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00037.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00038.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00039.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00040.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00041.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00042.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00043.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00044.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00045.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00046.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00047.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00048.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ui\leg_img_full_size\main_img\detail_00049.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.118.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.118.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets'))" />
+  </Target>
+  <Import Project="packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <Import Project="packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.118.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.118.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
+</Project>

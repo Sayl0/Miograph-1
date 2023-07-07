@@ -170,6 +170,7 @@
             this.buttonCourseParmeters.TabIndex = 22;
             this.buttonCourseParmeters.Text = "Пармаетры курса";
             this.buttonCourseParmeters.UseVisualStyleBackColor = true;
+            this.buttonCourseParmeters.Click += new System.EventHandler(this.buttonCourseParmeters_Click);
             // 
             // buttonGenerateStatement
             // 
@@ -182,6 +183,7 @@
             this.buttonGenerateStatement.TabIndex = 23;
             this.buttonGenerateStatement.Text = "Сформировать выписку";
             this.buttonGenerateStatement.UseVisualStyleBackColor = true;
+            this.buttonGenerateStatement.Click += new System.EventHandler(this.buttonGenerateStatement_Click);
             // 
             // labelDateDiagnosis
             // 
@@ -228,6 +230,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(985, 714);
+            this.BackColor = System.Drawing.Color.FloralWhite;
             this.Controls.Add(this.labelNotFormed);
             this.Controls.Add(this.labelFormationDate);
             this.Controls.Add(this.labelNoDiagnostics);

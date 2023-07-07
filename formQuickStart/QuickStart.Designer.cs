@@ -105,6 +105,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(599, 487);
+            this.BackColor = System.Drawing.Color.FloralWhite;
             this.Controls.Add(this.activeButton);
             this.Controls.Add(this.activePassiveButton);
             this.Controls.Add(this.passiveAnkleButton);
