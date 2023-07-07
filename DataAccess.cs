@@ -60,7 +60,7 @@ namespace Miograph
                     command.ExecuteNonQuery();
                     long patient_id = connection.LastInsertRowId;
                     string sql1 = $"INSERT INTO doctor_patient(doctor_id, patient_id) VALUES ('{doctor_id}', '{patient_id}')";
-                    using (SQLiteCommand command1 = new SQLiteCommand(sql, connection))
+                    using (SQLiteCommand command1 = new SQLiteCommand(sql1, connection))
                     {
                         command1.ExecuteNonQuery();
                     }

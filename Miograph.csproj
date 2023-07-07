@@ -90,7 +90,7 @@
   <ItemGroup>
     <Compile Include="AnamnesisDiagnosisModel.cs" />
     <Compile Include="DataAccess.cs" />
-    <Compile Include="DiagnosticData.cs" />
+    <Compile Include="DiagnosticDataModel.cs" />
     <Compile Include="ExercisesDataModel.cs" />
     <Compile Include="formQuickStart\ActiveMode\ActiveMode.cs">
       <SubType>Form</SubType>

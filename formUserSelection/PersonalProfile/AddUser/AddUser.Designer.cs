@@ -66,7 +66,7 @@ namespace Miograph
             this.buttonExit.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.buttonExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonExit.Location = new System.Drawing.Point(380, 716);
-            this.buttonExit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonExit.Margin = new System.Windows.Forms.Padding(4);
             this.buttonExit.Name = "buttonExit";
             this.buttonExit.Size = new System.Drawing.Size(303, 68);
             this.buttonExit.TabIndex = 10;
@@ -184,7 +184,7 @@ namespace Miograph
             this.radioButtonWoman.AutoSize = true;
             this.radioButtonWoman.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.radioButtonWoman.Location = new System.Drawing.Point(103, 30);
-            this.radioButtonWoman.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButtonWoman.Margin = new System.Windows.Forms.Padding(4);
             this.radioButtonWoman.Name = "radioButtonWoman";
             this.radioButtonWoman.Size = new System.Drawing.Size(55, 33);
             this.radioButtonWoman.TabIndex = 21;
@@ -198,7 +198,7 @@ namespace Miograph
             this.radioButtonMen.AutoSize = true;
             this.radioButtonMen.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.radioButtonMen.Location = new System.Drawing.Point(21, 30);
-            this.radioButtonMen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.radioButtonMen.Margin = new System.Windows.Forms.Padding(4);
             this.radioButtonMen.Name = "radioButtonMen";
             this.radioButtonMen.Size = new System.Drawing.Size(54, 33);
             this.radioButtonMen.TabIndex = 20;
@@ -245,7 +245,7 @@ namespace Miograph
             this.buttonNext.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.buttonNext.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonNext.Location = new System.Drawing.Point(701, 716);
-            this.buttonNext.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonNext.Margin = new System.Windows.Forms.Padding(4);
             this.buttonNext.Name = "buttonNext";
             this.buttonNext.Size = new System.Drawing.Size(303, 68);
             this.buttonNext.TabIndex = 23;
@@ -266,6 +266,7 @@ namespace Miograph
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.Location = new System.Drawing.Point(240, 107);
             this.label1.Name = "label1";
@@ -275,6 +276,7 @@ namespace Miograph
             // 
             // label2
             // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.Location = new System.Drawing.Point(240, 174);
             this.label2.Name = "label2";
@@ -284,6 +286,7 @@ namespace Miograph
             // 
             // label3
             // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.Location = new System.Drawing.Point(240, 242);
             this.label3.Name = "label3";

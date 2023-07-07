@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace Miograph
 {
-    public class DiagnosticData
+    public class DiagnosticDataModel
     {
-        // Properties
         public int Id { get; set; }
         public int PId { get; set; }
         public int DiagNumber { get; set; }
@@ -21,8 +20,7 @@ namespace Miograph
         public int MaxStrengthHipFlexors { get; set; }
         public int MaxStrengthHipExtensors { get; set; }
 
-        // Constructor
-        public DiagnosticData(int id, int pId, int diagNumber, DateTime diagnosisDateTime, int maxFlexionAngleKnee, int maxFlexionAnglePelvic, int maxFlexionAngleFoot, int maxStrengthAnkleFlexors, int maxStrengthAnkleExtensors, int maxStrengthHipFlexors, int maxStrengthHipExtensors)
+        public DiagnosticDataModel(int id, int pId, int diagNumber, DateTime diagnosisDateTime, int maxFlexionAngleKnee, int maxFlexionAnglePelvic, int maxFlexionAngleFoot, int maxStrengthAnkleFlexors, int maxStrengthAnkleExtensors, int maxStrengthHipFlexors, int maxStrengthHipExtensors)
         {
             Id = id;
             PId = pId;
@@ -36,8 +34,5 @@ namespace Miograph
             MaxStrengthHipFlexors = maxStrengthHipFlexors;
             MaxStrengthHipExtensors = maxStrengthHipExtensors;
         }
-
-        // Methods
-        // You can add any methods you need here
     }
 }
