@@ -12,18 +12,16 @@ namespace Miograph
 {
     public partial class PersonalProfile : Form
     {
-        public PersonalProfile()
+        private DataAccess db = new DataAccess();
+        private long id;
+
+        public PersonalProfile(long id)
         {
             InitializeComponent();
+            this.id = id;
 
-            PatientCard[] patientCards = new PatientCard[]
-            {
-                new PatientCard(0, 111, "Иванов", "Иван", "Иванович", "М", new DateTime(1980, 1, 1), 180, 80, new DateTime(2021, 1, 1)),
-                new PatientCard(1, 112, "Петров", "Петр", "Петрович", "М", new DateTime(1985, 2, 2), 175, 75, new DateTime(2021, 2, 2)),
-                new PatientCard(2, 113, "Сидорова", "Мария", "Ивановна", "Ж", new DateTime(1990, 3, 3), 170, 65, new DateTime(2021, 3, 3))
-            };
+            List<PatientCard> patientCards = db.DoctorsPatients(id);
 
-           
             dataGridView1.DataSource = patientCards;
 
             // Отображение элемента управления DataGridView на форме

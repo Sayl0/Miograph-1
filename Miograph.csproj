@@ -88,7 +88,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnamnesisDiagnosisModel.cs" />
     <Compile Include="DataAccess.cs" />
+    <Compile Include="DiagnosticData.cs" />
+    <Compile Include="ExercisesDataModel.cs" />
     <Compile Include="formQuickStart\ActiveMode\ActiveMode.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -180,6 +183,7 @@
       <DependentUpon>PersonalProfile.cs</DependentUpon>
     </Compile>
     <Compile Include="PatientModel.cs" />
+    <Compile Include="PersonalDataModel.cs" />
     <Compile Include="PHTextBox.cs">
       <SubType>Component</SubType>
     </Compile>

@@ -40,7 +40,7 @@ namespace Miograph
                 var res = db.LoginUser(textBoxLogin.Text, textBoxPassword.Text);
                 if (res != null)
                 {
-                    var frm = new PersonalProfile();
+                    var frm = new PersonalProfile(res.Id);
                     frm.Location = this.Location;
                     frm.StartPosition = FormStartPosition.Manual;
                     frm.FormClosing += delegate { this.Show(); };

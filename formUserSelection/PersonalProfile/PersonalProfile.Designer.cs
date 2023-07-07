@@ -56,20 +56,22 @@
             this.labelDoctorName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.labelDoctorName.AutoSize = true;
-            this.labelDoctorName.Font = new System.Drawing.Font("Roboto Medium", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelDoctorName.Location = new System.Drawing.Point(56, 48);
+            this.labelDoctorName.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelDoctorName.Location = new System.Drawing.Point(13, 99);
+            this.labelDoctorName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelDoctorName.Name = "labelDoctorName";
-            this.labelDoctorName.Size = new System.Drawing.Size(251, 29);
+            this.labelDoctorName.Size = new System.Drawing.Size(340, 36);
             this.labelDoctorName.TabIndex = 0;
             this.labelDoctorName.Text = "Врач ФИО/Пациенты";
             // 
             // buttonExit
             // 
             this.buttonExit.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.buttonExit.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonExit.Location = new System.Drawing.Point(277, 809);
+            this.buttonExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonExit.Location = new System.Drawing.Point(369, 996);
+            this.buttonExit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonExit.Name = "buttonExit";
-            this.buttonExit.Size = new System.Drawing.Size(241, 61);
+            this.buttonExit.Size = new System.Drawing.Size(321, 75);
             this.buttonExit.TabIndex = 9;
             this.buttonExit.Text = "Выход";
             this.buttonExit.UseVisualStyleBackColor = true;
@@ -78,10 +80,11 @@
             // buttonSelectUser
             // 
             this.buttonSelectUser.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.buttonSelectUser.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonSelectUser.Location = new System.Drawing.Point(799, 809);
+            this.buttonSelectUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonSelectUser.Location = new System.Drawing.Point(1065, 996);
+            this.buttonSelectUser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonSelectUser.Name = "buttonSelectUser";
-            this.buttonSelectUser.Size = new System.Drawing.Size(241, 61);
+            this.buttonSelectUser.Size = new System.Drawing.Size(321, 75);
             this.buttonSelectUser.TabIndex = 10;
             this.buttonSelectUser.Text = "Выбрать пациента";
             this.buttonSelectUser.UseVisualStyleBackColor = true;
@@ -90,10 +93,11 @@
             // buttonAddUser
             // 
             this.buttonAddUser.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.buttonAddUser.Font = new System.Drawing.Font("Roboto", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonAddUser.Location = new System.Drawing.Point(539, 809);
+            this.buttonAddUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonAddUser.Location = new System.Drawing.Point(719, 996);
+            this.buttonAddUser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonAddUser.Name = "buttonAddUser";
-            this.buttonAddUser.Size = new System.Drawing.Size(241, 61);
+            this.buttonAddUser.Size = new System.Drawing.Size(321, 75);
             this.buttonAddUser.TabIndex = 11;
             this.buttonAddUser.Text = "Добавить пациента";
             this.buttonAddUser.UseVisualStyleBackColor = true;
@@ -107,7 +111,7 @@
             this.dataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Sunken;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Roboto Medium", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -126,18 +130,18 @@
             this.dataGridView1.DataSource = this.patientCardBindingSource;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Roboto", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
-            this.dataGridView1.Location = new System.Drawing.Point(61, 111);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 137);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridView1.Name = "dataGridView1";
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Roboto", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -148,7 +152,7 @@
             this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridView1.RowTemplate.DefaultCellStyle.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dataGridView1.RowTemplate.Height = 40;
-            this.dataGridView1.Size = new System.Drawing.Size(1092, 693);
+            this.dataGridView1.Size = new System.Drawing.Size(1579, 774);
             this.dataGridView1.TabIndex = 12;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -156,7 +160,7 @@
             // 
             this.surnameDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.surnameDataGridViewTextBoxColumn.DataPropertyName = "Surname";
-            this.surnameDataGridViewTextBoxColumn.HeaderText = "Surname";
+            this.surnameDataGridViewTextBoxColumn.HeaderText = "Фамилия";
             this.surnameDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.surnameDataGridViewTextBoxColumn.Name = "surnameDataGridViewTextBoxColumn";
             // 
@@ -164,7 +168,7 @@
             // 
             this.nameDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.nameDataGridViewTextBoxColumn.DataPropertyName = "Name";
-            this.nameDataGridViewTextBoxColumn.HeaderText = "Name";
+            this.nameDataGridViewTextBoxColumn.HeaderText = "Имя";
             this.nameDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
             // 
@@ -172,7 +176,7 @@
             // 
             this.patronymicDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.patronymicDataGridViewTextBoxColumn.DataPropertyName = "Patronymic";
-            this.patronymicDataGridViewTextBoxColumn.HeaderText = "Patronymic";
+            this.patronymicDataGridViewTextBoxColumn.HeaderText = "Отчество";
             this.patronymicDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.patronymicDataGridViewTextBoxColumn.Name = "patronymicDataGridViewTextBoxColumn";
             // 
@@ -180,7 +184,7 @@
             // 
             this.genderDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.genderDataGridViewTextBoxColumn.DataPropertyName = "Gender";
-            this.genderDataGridViewTextBoxColumn.HeaderText = "Gender";
+            this.genderDataGridViewTextBoxColumn.HeaderText = "Пол";
             this.genderDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.genderDataGridViewTextBoxColumn.Name = "genderDataGridViewTextBoxColumn";
             // 
@@ -188,7 +192,7 @@
             // 
             this.birthDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.birthDataGridViewTextBoxColumn.DataPropertyName = "Birth";
-            this.birthDataGridViewTextBoxColumn.HeaderText = "Birth";
+            this.birthDataGridViewTextBoxColumn.HeaderText = "День рождения";
             this.birthDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.birthDataGridViewTextBoxColumn.Name = "birthDataGridViewTextBoxColumn";
             // 
@@ -196,7 +200,7 @@
             // 
             this.heightDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.heightDataGridViewTextBoxColumn.DataPropertyName = "Height";
-            this.heightDataGridViewTextBoxColumn.HeaderText = "Height";
+            this.heightDataGridViewTextBoxColumn.HeaderText = "Рост";
             this.heightDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.heightDataGridViewTextBoxColumn.Name = "heightDataGridViewTextBoxColumn";
             // 
@@ -204,7 +208,7 @@
             // 
             this.weightDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.weightDataGridViewTextBoxColumn.DataPropertyName = "Weight";
-            this.weightDataGridViewTextBoxColumn.HeaderText = "Weight";
+            this.weightDataGridViewTextBoxColumn.HeaderText = "Вес";
             this.weightDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.weightDataGridViewTextBoxColumn.Name = "weightDataGridViewTextBoxColumn";
             // 
@@ -212,7 +216,7 @@
             // 
             this.registrationDTDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.registrationDTDataGridViewTextBoxColumn.DataPropertyName = "Registration_DT";
-            this.registrationDTDataGridViewTextBoxColumn.HeaderText = "Registration_DT";
+            this.registrationDTDataGridViewTextBoxColumn.HeaderText = "Дата регистрации";
             this.registrationDTDataGridViewTextBoxColumn.MinimumWidth = 60;
             this.registrationDTDataGridViewTextBoxColumn.Name = "registrationDTDataGridViewTextBoxColumn";
             // 
@@ -222,15 +226,16 @@
             // 
             // PersonalProfile
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1202, 958);
+            this.ClientSize = new System.Drawing.Size(1603, 1102);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.buttonAddUser);
             this.Controls.Add(this.buttonSelectUser);
             this.Controls.Add(this.buttonExit);
             this.Controls.Add(this.labelDoctorName);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "PersonalProfile";
             this.Text = "PersonalProfile";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

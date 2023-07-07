@@ -11,8 +11,8 @@ namespace Miograph
     public class PatientCard
     {
         // Declare the fields for the class
-        private int id;
-        private int p_id;
+        private long id;
+        private long p_id;
         private string surname;
         private string name;
         private string patronymic;
@@ -23,13 +23,13 @@ namespace Miograph
         private DateTime registration_DT;
 
         // Define the properties for the fields
-        public int Id
+        public long Id
         {
             get { return id; }
             set { id = value; }
         }
 
-        public int P_id
+        public long P_id
         {
             get { return p_id; }
             set { p_id = value; }
@@ -104,7 +104,7 @@ namespace Miograph
         }
 
         // Define a constructor for the class
-        public PatientCard(int id, int p_id, string surname, string name, string patronymic, string gender, DateTime birth, int height, int weight, DateTime registration_DT)
+        public PatientCard(long id, long p_id, string surname, string name, string patronymic, string gender, DateTime birth, int height, int weight, DateTime registration_DT)
         {
             this.Id = id;
             this.P_id = p_id;
