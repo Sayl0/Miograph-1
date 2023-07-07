@@ -121,6 +121,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(531, 478);
+            this.BackColor = System.Drawing.Color.FloralWhite;
             this.Controls.Add(this.buttonSignUp);
             this.Controls.Add(this.buttonLogIn);
             this.Controls.Add(this.textBoxPassword);

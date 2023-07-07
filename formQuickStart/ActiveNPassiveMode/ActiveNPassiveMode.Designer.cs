@@ -250,6 +250,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(848, 614);
+            this.BackColor = System.Drawing.Color.FloralWhite;
             this.Controls.Add(this.sockBox);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.ankleSettingsBox);

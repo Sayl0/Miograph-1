@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Miograph.formUserSelection.PersonalProfile.AddUser;
 using Miograph.formUserSelection.PersonalProfile.SelectUser;
+using Miograph.formUserSelection.PersonalProfile.SelectUser.CourseParameters;
+using Miograph.formUserSelection.PersonalProfile.SelectUser.GenerateExtract;
+using Miograph.formUserSelection.PersonalProfile.SelectUser.GenerateExtract.TargetParameters;
 
 namespace Miograph
 {
@@ -42,6 +45,26 @@ namespace Miograph
         private void buttonRunDiagnostics_Click(object sender, EventArgs e)
         {
             var frm = new RunDiagnostic();
+            frm.Location = this.Location;
+            frm.StartPosition = FormStartPosition.Manual;
+            frm.FormClosing += delegate { this.Show(); };
+            frm.Show();
+            this.Hide();
+        }
+
+        private void buttonGenerateStatement_Click(object sender, EventArgs e)
+        {
+            var frm = new Excerpt();
+            frm.Location = this.Location;
+            frm.StartPosition = FormStartPosition.Manual;
+            frm.FormClosing += delegate { this.Show(); };
+            frm.Show();
+            this.Hide();
+        }
+
+        private void buttonCourseParmeters_Click(object sender, EventArgs e)
+        {
+            var frm = new CourseParameters();
             frm.Location = this.Location;
             frm.StartPosition = FormStartPosition.Manual;
             frm.FormClosing += delegate { this.Show(); };

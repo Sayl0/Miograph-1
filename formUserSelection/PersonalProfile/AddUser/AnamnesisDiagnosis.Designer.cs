@@ -128,6 +128,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1129, 793);
+            this.BackColor = System.Drawing.Color.FloralWhite;
             this.Controls.Add(this.buttonNext);
             this.Controls.Add(this.buttonExit);
             this.Controls.Add(this.richTextBoxDiagnosis);
